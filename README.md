@@ -29,3 +29,19 @@ The [Washington Post](https://www.washingtonpost.com/news/post-nation/wp/2018/04
 
 *The rest involve people in dire need.*
 
+## Data
+The `Real911_Calls` directory contains several real 911 calls, [posted publicly](http://www.lapdonline.org/communications_division/content_basic_view/27361) by the LAPD:
+
+-  medical emergency  
+-  officer shot         
+-  car accidents
+-  attempted murder   
+-  possible burglary
+-  assault & battery
+-  shots fired
+
+
+
+
+
+
