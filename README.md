@@ -41,8 +41,6 @@ The `Real911_Calls` directory contains several real 911 calls, [posted publicly]
 -  assault & battery
 -  shots fired
 
-The website [http://911callers.com/](http://911callers.com/) contains 89 calls to 911, including both emergency and non-emergency situations.
-
-
+The website [http://911callers.com/](http://911callers.com/) contains 89 calls to 911, including both emergency and non-emergency situations. It appears that all of the audio files are stored in the root directory, thus accessible by `wget 911callers.com/<callname>.swf`
 
 
