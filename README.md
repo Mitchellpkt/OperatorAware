@@ -1,5 +1,6 @@
 # OperatorAware
 ## Urgency detection for emergency calls
+2018.06.04
 mitchellpkt@protonmail.com
 
 OperatorAware evaluates 911 calls in real-time to assess the nature and direness of the emergency being reported.
