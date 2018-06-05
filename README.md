@@ -1,7 +1,7 @@
 # OperatorAware
 ## Urgency detection for emergency calls
 2018.06.04
-mitchellpkt@protonmail.com
+mitchellpkt@protonmail.com 2018.06.04
 
 OperatorAware evaluates 911 calls in real-time to assess the nature and direness of the emergency being reported.
 
@@ -26,7 +26,7 @@ Another 911 dispatcher, infamous for ending a call with "Ain't nobody got time f
 While 911 callers may hang up at any time, in the vast majority of cases, **the 911 dispatcher should not be the party to terminate the call during a crisis.** If an operator is the party to end a call that has been ranked as likely-severe by the OperatorAware, this should trigger quality assurance review. The latter dispatcher mentioned above hung up on thousands of calls over multiple years. With OperatorAware, she would have come under close scrutiny by the end of her first week
 
 ## Use case scale
-The [Washington Post](https://www.washingtonpost.com/news/post-nation/wp/2018/04/19/911-dispatcher-jailed-houston-woman-hung-up-on-thousands-of-callers/?noredirect=on&utm_term=.d2fbe079869a) notes: *This single consolidated center for 911 calls opened in 2003 and handles millions of calls every year, according to the Chronicle, or 9,000 a day. Two-thirds of those calls aren’t true emergencies*
+The [Washington Post](https://www.washingtonpost.com/news/post-nation/wp/2018/04/19/911-dispatcher-jailed-houston-woman-hung-up-on-thousands-of-callers/?noredirect=on&utm_term=.d2fbe079869a) notes: *[This single] consolidated center for 911 calls opened in 2003 and handles millions of calls every year, according to the Chronicle, or 9,000 a day. Two-thirds of those calls aren’t true emergencies*
 
 *The rest involve people in dire need.*
 
