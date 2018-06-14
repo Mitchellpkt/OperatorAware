@@ -12,7 +12,7 @@ As the human operator collects information, OperatorAware converts the audio str
 -  etc
 
 ## Example
-Caller reports: **"My neighbor shot my leg, It's bleeding everywhere! He didn't mean to fire the gun"** 
+Caller reports: **"My neighbor shot my leg, It's bleeding everywhere! He didn't mean to shoot the gun"** 
 
 OperatorAware uses the words {"shot", "bleeding", "gun"} to identify that this is a **medical emergency involving a weapon.**
 
