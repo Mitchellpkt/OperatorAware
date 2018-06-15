@@ -1,18 +1,21 @@
 def evaluate_call(sound_filename):
 
     # proof-of-concept dictionary. For actual implementation, would need multiple formes e.g. 'shoot' and 'shot'
+
+    # proof-of-concept dictionary. For actual implementation, would need multiple formes e.g. 'shoot' and 'shot'
     DangerWords = {'weaponWords': ['knife', 'gun', 'weapon', 'shoot', 'shot', 'armed', 'shotgun', 'handgun'],
-                   'medicalWords': ['heart', 'stroke', 'breathing', 'unconscious', 'collapsed'],
-                   'vehicleWords': ['crash', 'accident', 'airbag'],
-                   'domesticWords': ['domestic', 'abuse', 'fight', 'argument', 'arguing', 'relationship'],
-                   'miscWords': ['violent', 'suicidal', 'suicide', 'drunk']};
+            'medicalWords': ['heart','stroke','breathing','unconscious','collapsed'],
+            'vehicleWords': ['crash', 'accident','airbag'],
+            'domesticWords': ['domestic','abuse','fight','argument','arguing','relationship'],
+            'fireWords': ['fire','burn','arson'],
+            'miscWords': ['violent','suicidal', 'suicide','drunk']};
 
     DangerDefs = {'weaponWords': 'weapon',
-                  'medicalWords': 'medical emergency',
-                  'vehicleWords': 'car crash',
-                  'domesticWords': 'domestic altercation',
-                  'miscWords': 'miscellaneuos'};
-
+            'medicalWords': 'medical emergency',
+            'vehicleWords': 'car crash',
+            'domesticWords': 'domestic altercation',
+            'fireWords': 'fire',
+            'miscWords': 'miscellaneuos'};
     # !pip install --upgrade google-cloud-speech
 
     import io
@@ -87,7 +90,7 @@ def evaluate_call(sound_filename):
             if keyword in TranscriptionString:
                 is_anything_important = 1
                 KeywordObs = 'Possible ' + DangerDefs[danger_cat] + ': ' + keyword
-                HeardWords += '\n ' + KeywordObs
+                HeardWords += '<br> ' + KeywordObs
                 print(KeywordObs)
 
 
