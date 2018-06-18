@@ -36,6 +36,8 @@ def transcribe_audio_cloud(audio_data, audio_config):
     from google.cloud.speech import enums
     from google.cloud.speech import types
 
+    client = speech.SpeechClient()
+
     raw_response = client.recognize(config, audio)
 
     transcription_str = ''
