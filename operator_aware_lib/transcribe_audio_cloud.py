@@ -42,8 +42,6 @@ def transcribe_audio_cloud(audio_data, audio_config):
 
     transcription_str = ''
     for result in response.results:
-        print(type(response))
-        #print('Transcript: {}'.format(result.alternatives[0].transcript))
         transcription_str += ' ' + format(result.alternatives[0].transcript)
 
     return transcription_str, response
