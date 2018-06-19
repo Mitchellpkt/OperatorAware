@@ -32,6 +32,7 @@
 #
 
 def transcribe_audio_cloud(audio_data, audio_config):
+
     from google.cloud import speech
     from google.cloud.speech import enums
     from google.cloud.speech import types

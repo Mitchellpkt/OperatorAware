@@ -35,11 +35,13 @@
 #
 
 def fetch_transcript(audio_data, audio_config,transcript_directory,qVerbose=0,force_fresh=0,do_not_save=0):
+
+    from transcribe_audio_cloud.transcribe_audio_cloud import *
     import hashlib
     import os
 
     # Hash the audio (SHA256, but any algorithm would work...)
-    hash_object = hashlib.sha256(audio.SerializePartialToString())
+    hash_object = hashlib.sha256(audio_data.SerializePartialToString())
     hex_dig = hash_object.hexdigest()
 
     # Where should the transcript be stored
@@ -62,6 +64,7 @@ def fetch_transcript(audio_data, audio_config,transcript_directory,qVerbose=0,fo
 
     else:
         # Detect speech in the audio file
+	print('-o-')
         transcription_str = transcribe_audio_cloud(audio_data, audio_config)
 
         if do_not_save != 1:
