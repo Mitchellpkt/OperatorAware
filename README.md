@@ -16,6 +16,8 @@ Caller reports: **"My neighbor shot my leg, It's bleeding everywhere! He didn't 
 
 OperatorAware uses the words {"shot", "bleeding", "gun"} to identify that this is a **medical emergency involving a weapon.**
 
+# Introduction
+
 ## Motivation
 There have been multiple reported instances of emergency operators hanging up on 911 callers during crises. 
 
@@ -30,17 +32,17 @@ The [Washington Post](https://www.washingtonpost.com/news/post-nation/wp/2018/04
 
 *The rest involve people in dire need.*
 
+# Technical Details 
+## Algorithm
+The backend uses labeled call data to learn a dictionary for classifying the calls into relevant categories. This training phase is decoupled from the evaluation mechanism, so that either can be updated on-the-fly. When new audio requires evaluation, it is transcribed and compared against the dictionary to highlight anomalies and flag suspect calls for the supervisor.
+![images/algo2.png](images/algo2.png)
+
+
+## UX
+The call center supervisor interacts with OperatorAware through a quality assurance interface that specifically highlights the calls that most likely need review.
+![images/dash.png](images/dash.png)
+
 ## Training Data
-The `Real911_Calls` directory contains several real 911 calls, [posted publicly](http://www.lapdonline.org/communications_division/content_basic_view/27361) by the LAPD:
-
--  medical emergency  
--  officer shot         
--  car accidents
--  attempted murder   
--  possible burglary
--  assault & battery
--  shots fired
-
-The website [http://911callers.com/](http://911callers.com/) contains 89 calls to 911, including both emergency and non-emergency situations. It appears that all of the audio files are stored in the root directory, thus accessible by `wget 911callers.com/<callname>.swf`
+The `Real911_Calls` directory contains the audio of 911 calls. Data avre available through [posted publicly](http://www.lapdonline.org/communications_division/content_basic_view/27361) by the LAPD. The website [http://911callers.com/](http://911callers.com/) contains 89 calls to 911, including both emergency and non-emergency situations. It appears that all of the audio files are stored in the root directory, thus accessible by `wget 911callers.com/<callname>.swf`
 
 
