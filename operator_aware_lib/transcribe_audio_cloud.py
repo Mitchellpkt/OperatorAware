@@ -25,7 +25,7 @@
 
 ########
 # TO DO:
-#
+# Maybe this should look at multiple alternatives
 
 #############
 # EXAMPLE:
@@ -38,12 +38,12 @@ def transcribe_audio_cloud(audio_data, audio_config):
     from google.cloud.speech import types
 
     client = speech.SpeechClient()
-
-    raw_response = client.recognize(config, audio)
+    response = client.recognize(audio_config, audio_data)
 
     transcription_str = ''
-    for result in raw_response.results:
-        # print('Transcript: {}'.format(result.alternatives[0].transcript))
-        transcription_str += ' ' + format(raw_result.alternatives[0].transcript)
+    for result in response.results:
+        print(type(response))
+        #print('Transcript: {}'.format(result.alternatives[0].transcript))
+        transcription_str += ' ' + format(result.alternatives[0].transcript)
 
-    return transcription_str, raw_response
+    return transcription_str, response

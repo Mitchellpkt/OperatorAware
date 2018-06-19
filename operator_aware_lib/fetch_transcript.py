@@ -36,14 +36,9 @@
 
 def fetch_transcript(audio_data, audio_config,transcript_directory,qVerbose=0,force_fresh=0,do_not_save=0):
 
-    import transcribe_audio_cloud.py
+    from .transcribe_audio_cloud import transcribe_audio_cloud
     import hashlib
     import os
-
-    sys.path.append(os.path.abspath(os.cwd()))
-    print(sys.path)
-
-    import transcribe_audio_cloud
 
     # Hash the audio (SHA256, but any algorithm would work...)
     hash_object = hashlib.sha256(audio_data.SerializePartialToString())
@@ -55,7 +50,23 @@ def fetch_transcript(audio_data, audio_config,transcript_directory,qVerbose=0,fo
     # Is it there?
     does_transcription_exist = os.path.isfile(transcription_filename)
 
-    if does_transcription_exist == True or force_fresh == 1:
+    if does_transcription_exist == False or force_fresh == 1:
+
+    # Detect speech in the audio file
+        transcription_str = transcribe_audio_cloud(audio_data, audio_config)
+
+        if do_not_save != 1:
+            # save transcription unless otherwise specified
+            with open(transcription_filename, 'w') as f_open:
+                f_open.write(str(transcription_str))
+                f_open.close()
+
+        if qVerbose == 1:
+            print('***************************')
+            print('Fresh transcription stored in: ' + transcription_filename)
+            print('Transcription:')
+            print(transcription_str)
+    else:    
         # Load in the transcript
 
         with open(transcription_filename, 'r') as f_open:
@@ -64,22 +75,6 @@ def fetch_transcript(audio_data, audio_config,transcript_directory,qVerbose=0,fo
         if qVerbose == 1:
             print('***************************')
             print('Imported data from:' + transcription_filename)
-            print('Transcription:')
-            print(transcription_str)
-
-    else:
-        # Detect speech in the audio file
-        transcription_str = transcribe_audio_cloud(audio_data, audio_config)
-
-        if do_not_save != 1:
-            # save transcription unless otherwise specified
-            with open(transcription_filename, 'w') as f_open:
-                f_open.write(TranscriptionString)
-                f_open.close()
-
-        if qVerbose == 1:
-            print('***************************')
-            print('Fresh transcription stored in: ' + transcription_filename)
             print('Transcription:')
             print(transcription_str)
 
