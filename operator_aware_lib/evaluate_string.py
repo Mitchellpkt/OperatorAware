@@ -34,20 +34,23 @@
 def evaluate_string(transcription_str, danger_words, danger_names):
     # initialization
     results_printout = ''
-    word_list = ()
-    category_list = ()
     is_urgent = 0
+    word_list_with_dupes = ''
+    category_list_with_dupes = ''
 
     # loop over categories of danger
     for danger_cat in danger_words.keys():
         this_category = danger_words[danger_cat]
         # loop over keywords within category
         for keyword in this_category:
-            if keyword in TranscriptionString:
+            if keyword in transcription_str:
                 is_urgent = 1 # if any appear, set is_urgent to 1
                 keyword_obs = 'Possible ' + danger_names[danger_cat] + ': ' + keyword
                 results_printout += '<br> ' + keyword_obs
-                word_list = list(set(word_list.append(keyword)))
-                category_list = list(set(category_list.append(this_category)))
+                word_list_with_dupes += ' ' + keyword
+                category_list_with_dupes += ' ' + danger_names[danger_cat]
 
+    category_list = category_list_with_dupes
+    word_list = word_list_with_dupes
+                
     return is_urgent, category_list, word_list, results_printout
