@@ -30,7 +30,7 @@
 
 
 def handler_in_str_to_out_str(sound_filename):
-    # Load in the relevant modules
+    # Load in the relevant modules,
     import os
     from .load_audio_from_filename import load_audio_from_filename
     from .evaluate_string import evaluate_string
@@ -52,7 +52,7 @@ def handler_in_str_to_out_str(sound_filename):
         'transcriptions')
 
     # Fetch the transcript
-    transcription_str = fetch_transcript(audio_data, audio_config, transcript_directory, qVerbose=1, force_fresh=1, do_not_save=0)
+    transcription_str = fetch_transcript(audio_data, audio_config, transcript_directory, qVerbose=1, force_fresh=0, do_not_save=0)
 
     # Retrieve the dictionary
     danger_words, danger_names = return_dictionary(str_dict_version='newest')
