@@ -41,6 +41,8 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     from .return_dictionary import return_dictionary
     from .fetch_transcript import fetch_transcript
 
+    print('-o- in handler_in_str_to_out_str')
+
     # Form filename
     if audio_folder_path == 'auto':
         # guess at file path from the current directory

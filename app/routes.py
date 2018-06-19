@@ -1,6 +1,6 @@
 from flask import render_template, request
 from app import app
-import operator_aware_lib_v1
+from operator_aware_lib.handler_in_str_to_out_str import handler_in_str_to_out_str
 
 @app.route('/')
 @app.route('/index')
@@ -11,5 +11,5 @@ def index():
 @app.route('/index', methods=['POST'])
 def dummmy():
     x = request.form['Item_1']
-    OA_eval = operator_aware_lib_v1.evaluate_call(x)
+    OA_eval = handler_in_str_to_out_str(x)
     return OA_eval
