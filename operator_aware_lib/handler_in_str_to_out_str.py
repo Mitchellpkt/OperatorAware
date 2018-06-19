@@ -8,6 +8,10 @@
 # INPUTS:
 #
 # >> audio_file_name_w_extension - the string showing what file to load in
+# >> audio_folder_path - path of audio file. If 'auto', guesses (./INPUT_audio) from running directory
+# >> transcription_directory path - where the transcripts are stored, guesses (./CACHE_transcriptions) from running directory
+# >> qVerbose - extra feedback in console? default = 0
+# >> str_dict_version - specify what version of dictionary to use. 'newest' by default
 #
 # *** Both of these inputs are provided by load_audio_from_filename.py
 #
@@ -29,7 +33,7 @@
 #
 
 
-def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='auto'):
+def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='auto',transcription_directory_path='auto',qVerbose=0,str_dict_version='newest'):
     # Load in the relevant modules,
     import os
     from .load_audio_from_filename import load_audio_from_filename
@@ -52,15 +56,18 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     audio_data, audio_config = load_audio_from_filename(full_audio_file_path)
 
     # Specify transcription directory
-    transcript_directory = os.path.join(
-        os.getcwd(),
-        'transcriptions')
+    if transcription_directory_path=='auto':
+        use_transcript_directory = os.path.join(
+            os.getcwd(),
+            'CACHE_transcriptions')
+    else:
+        use_transcript_directory = transcription_directory_path
 
     # Fetch the transcript
-    transcription_str = fetch_transcript(audio_data, audio_config, transcript_directory, qVerbose=1, force_fresh=0, do_not_save=0)
+    transcription_str = fetch_transcript(audio_data, audio_config, use_transcript_directory, qVerbose=qVerbose, force_fresh=0, do_not_save=0)
 
     # Retrieve the dictionary
-    danger_words, danger_names = return_dictionary(str_dict_version='newest')
+    danger_words, danger_names = return_dictionary(str_dict_version=str_dict_version)
 
     # Evaluate the call
     is_urgent, category_list, word_list, results_printout = evaluate_string(transcription_str, danger_words, danger_names)
