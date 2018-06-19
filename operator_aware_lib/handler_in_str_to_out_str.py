@@ -7,7 +7,7 @@
 ##########
 # INPUTS:
 #
-# >> sound_filename - the string showing what file to load in
+# >> audio_file_name_w_extension - the string showing what file to load in
 #
 # *** Both of these inputs are provided by load_audio_from_filename.py
 #
@@ -29,7 +29,7 @@
 #
 
 
-def handler_in_str_to_out_str(sound_filename):
+def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='auto'):
     # Load in the relevant modules,
     import os
     from .load_audio_from_filename import load_audio_from_filename
@@ -38,13 +38,18 @@ def handler_in_str_to_out_str(sound_filename):
     from .fetch_transcript import fetch_transcript
 
     # Form filename
-    str_audio_filename = os.path.join(
-        os.getcwd(),
-        'Real_911Calls',
-        sound_filename + '.flac')
+    if audio_folder_path == 'auto':
+        # guess at file path from the current directory
+        full_audio_file_path = os.path.join(
+            os.getcwd(),
+            'INPUT_audio',
+            audio_file_name_w_extension)
+    else:
+        # Construct from input path
+        full_audio_file_path = os.path.join(audio_folder_path,audio_file_name_w_extension)
 
     # Load the audio
-    audio_data, audio_config = load_audio_from_filename(str_audio_filename)
+    audio_data, audio_config = load_audio_from_filename(full_audio_file_path)
 
     # Specify transcription directory
     transcript_directory = os.path.join(
