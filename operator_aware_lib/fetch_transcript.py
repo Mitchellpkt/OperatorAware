@@ -53,7 +53,7 @@ def fetch_transcript(audio_data, audio_config,transcript_directory,qVerbose=0,fo
     if does_transcription_exist == False or force_fresh == 1:
 
     # Detect speech in the audio file
-        transcription_str = transcribe_audio_cloud(audio_data, audio_config)
+        transcription_str, response = transcribe_audio_cloud(audio_data, audio_config)
 
         if do_not_save != 1:
             # save transcription unless otherwise specified
