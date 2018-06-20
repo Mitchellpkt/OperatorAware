@@ -11,33 +11,33 @@ APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 def index():
     return render_template('index.html')
 
-@app.route('/', methods=['POST'])
-@app.route('/index', methods=['POST'])
-
-# def dummmy():
-#     x = request.form['Item_1']
-#     OA_eval = handler_in_str_to_out_str(x)
-#     return OA_eval
-
 @app.route("/", methods=["POST"])
 @app.route("/index", methods=["POST"])
 def upload():
+    # Generate and create target path for audio file (static)
     target = os.path.join(APP_ROOT,'static/')
-
-    print(target)
-
+    # print(target)
     if not os.path.isdir(target):
         os.mkdir(target)
     else:
         print("Coludn't create upload directory: {}".format(target))
 
-    pswd = 'HOW DO I RETRIEVE THIS'
-    print('{} is the password'.format(pswd))
-    #if password == "Insight2018":
-    #    print('alright')
-    #else:
-    #    print('Incorrect password')
-    #    kill function before upload
+    # Check the password
+    password_file = open('SupervisorPassword.txt', 'r')
+    pswd_read = password_file.readlines(0)
+    pswd_from_file = pswd_read[0].rstrip()
+    password_file.close()
+    # print('#####################################################')
+    # print('{} is the supervisor password '.format(pswd_from_file))
+    # from pprint import pprint # for troubleshooting
+    # pprint(vars(request)) # for troubleshooting
+    pswd_from_user = request.form['password']
+    # print('{} is the user-given password'.format(pswd_from_user))
+
+    if pswd_from_user == pswd_from_file:
+        print('Password accepted')
+    else:
+        return('Wrong supervisor password')
 
     # LOOP OVER UPLOADED FILES
     net_results_printout = ''
