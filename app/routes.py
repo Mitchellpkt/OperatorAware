@@ -31,7 +31,7 @@ def upload():
     else:
         print("Coludn't create upload directory: {}".format(target))
 
-    pswd = request.files.getlist("passwordInput")
+    pswd = request.files.getlist("password")
     print('{} is the password'.format(pswd))
     #if password == "Insight2018":
     #    print('alright')
