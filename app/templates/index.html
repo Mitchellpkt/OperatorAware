@@ -12,15 +12,24 @@
 
 <H2>"putting the 'minimum' in MVP"</H2>
 
-GitHub at <a href="http://github.com/mitchellpkt/OperatorAware">http://github.com/mitchellpkt/OperatorAware</a> <br>
+GitHub at: <a href="http://github.com/mitchellpkt/OperatorAware">http://github.com/mitchellpkt/OperatorAware</a> <br>
 
-Send me mail at <a href="mailto:mitchellpkt@protonmail.com">
+Contact at: <a href="mailto:mitchellpkt@protonmail.com">
 
 mitchellpkt@protonmail.com</a>.
 
 <br>
 
-<H2>Which call to review?</H2>
+<form id="upload-form" action="{{ url_for('index') }}" method="POST" enctype="multipart/form-data">
+
+    <strong>Upload your own recording to try it yourself:</strong><br>
+    <input id="file-picker" type="file" name="file" multiple>
+    <div id="msg"></div>
+    <input type="submit" value="Upload!" id="upload-button">
+</form>
+
+<!--OLD CODE FOR SELECTING FROM EXTANT FILES-->
+<!--<H2>Which call to review?</H2>
 
 <form name="Item_1" method='POST'>
     <select name="Item_1">
@@ -29,7 +38,7 @@ mitchellpkt@protonmail.com</a>.
     </select>
     <button type="submit">Analyze!</button>
 </form>
-<HR>
+<HR>-->
 
 <CENTER>
 
