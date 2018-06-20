@@ -43,7 +43,7 @@ def transcribe_audio_cloud(audio_data, audio_config):
     response = client.recognize(audio_config, audio_data)
 
     # Attempting for > 1 min files
-    response = client.long_running_recognize(audio_config, audio_data)
+    # response = client.long_running_recognize(audio_config, audio_data)
 
     transcription_str = ''
     for result in response.results:
