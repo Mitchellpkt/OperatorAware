@@ -19,16 +19,24 @@ mitchellpkt@protonmail.com</a>.
 <br>
 <br>
 <br>
-
+<hr>
 <form id="upload-form" action="{{ url_for('index') }}" method="POST" enctype="multipart/form-data">
+    <h2> 1a) Select a call: </h2>
+    <select name="Item_1">
+        <option value="upload_call_option">Upload call(s), below</option>
+        <option value="murder_short.flac">Demo Call 1</option>
+        <option value="fire_short.flac">Demo Call 2</option>
+    </select>
+    <br>
 
-    Enter supervisor password:
-    <input id="password" type="password" name="password" maxlength="60">
-    <hr>
-    <strong>Upload your own recording to try it yourself:</strong><br>
+    <h2> 1b) or upload call file(s) yourself:</h2>
     <input id="file-picker" type="file" name="file" multiple>
     <div id="msg"></div>
-    <input type="submit" value="Upload!" id="upload-button">
+    <br>
+    <h2> 2) Enter supervisor password: </h2>
+    <input id="password" type="password" name="password" maxlength="60">
+    <br>
+   <h2> 3) Press to submit:</h2> <input type="submit" value="OperatorAware Analyze" id="upload-button">
 </form>
 
 <!--OLD CODE FOR SELECTING FROM EXTANT FILES-->
