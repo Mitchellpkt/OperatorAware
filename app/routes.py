@@ -31,11 +31,17 @@ def upload():
     else:
         print("Coludn't create upload directory: {}".format(target))
 
-    print(request.files.getlist("file"))
-
-    net_results_printout = ''
+    pswd = request.files.getlist("passwordInput")
+    print('{} is the password'.format(pswd))
+    #if password == "Insight2018":
+    #    print('alright')
+    #else:
+    #    print('Incorrect password')
+    #    kill function before upload
 
     # LOOP OVER UPLOADED FILES
+    net_results_printout = ''
+    print(request.files.getlist("file"))
     for upload in request.files.getlist("file"):
         print(upload)
 

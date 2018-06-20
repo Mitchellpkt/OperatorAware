@@ -22,6 +22,9 @@ mitchellpkt@protonmail.com</a>.
 
 <form id="upload-form" action="{{ url_for('index') }}" method="POST" enctype="multipart/form-data">
 
+    Enter supervisor password:
+    <input type="password" name="passwor" id="password" maxlength="60">
+    <hr>
     <strong>Upload your own recording to try it yourself:</strong><br>
     <input id="file-picker" type="file" name="file" multiple>
     <div id="msg"></div>
