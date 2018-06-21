@@ -4,8 +4,15 @@ echo pip incoming...
 #sudo apt-get install python-pip
 sudo apt-get install python3-pip
 
+wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+chmod +777 Anaconda3-5.2.0-Linux-x86_64.sh
+bash Anaconda3-5.2.0-Linux-x86_64.sh
 
-
+## <<< NAVIGATE TO FOLDER>>>
+./conda update anaconda
+conda create -n insight python=3
+source activate insight
+conda install numpy scipy pandas matplotlib flask scikit-learn jupyter
 
 ######
 # Do we need a virtual environment?
