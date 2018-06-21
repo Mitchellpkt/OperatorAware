@@ -1,7 +1,11 @@
 #!/bin/bash
 
 echo pip incoming...
-sudo apt-get install python-pip
+#sudo apt-get install python-pip
+sudo apt-get install python3-pip
+
+
+
 
 ######
 # Do we need a virtual environment?
@@ -10,7 +14,7 @@ sudo apt-get install python-pip
 # virtualenv Insight
 # something something activate
 
-pip install conda
+pip3 install conda
 
 echo flask incoming...
 sudo apt install python3-flask
@@ -19,6 +23,8 @@ echo snag net-tools
 sudo apt install net-tools # for ifconfig
 
 echo gcloud stuff
-pip install google-cloud #?
-pip install --upgrade gcloud
-pip install --upgrade google-api-python-client
+pip3 install --upgrade google-cloud #?
+pip3 install --upgrade google-cloud-speech
+pip3 install --upgrade gcloud
+pip3 install --upgrade google-api-python-client
+
