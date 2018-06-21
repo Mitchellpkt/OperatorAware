@@ -64,7 +64,6 @@ def indexpost():
                 net_results_printout += 'In file ' + filename + ':<br>'
                 net_results_printout += results_printout + "<br><br>"
 
-            return(net_results_printout)
 
         else:
             results_printout = handler_in_str_to_out_str(audio_file_name_w_extension=what_to_load+'.FLAC', audio_folder_path=target,
@@ -75,4 +74,6 @@ def indexpost():
             net_results_printout += 'In file ' + what_to_load + ':<br>'
             net_results_printout += results_printout + "<br><br>"
 
-            return(net_results_printout)
+        # Return the result
+        # Change this to an output template 
+        return(net_results_printout)
