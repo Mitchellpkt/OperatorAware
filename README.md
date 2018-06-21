@@ -35,7 +35,7 @@ The [Washington Post](https://www.washingtonpost.com/news/post-nation/wp/2018/04
 # Technical Details 
 ## Algorithm
 The backend uses labeled call data to learn a dictionary for classifying the calls into relevant categories. This training phase is decoupled from the evaluation mechanism, so that either can be updated on-the-fly. When new audio requires evaluation, it is transcribed and compared against the dictionary to highlight anomalies and flag suspect calls for the supervisor.
-![images/algo2.png](images/algo2.png)
+![images/algo3.png](images/algo3.png)
 
 
 ## UX
