@@ -1,6 +1,7 @@
 from flask import render_template, request
 from app import app
 from operator_aware_lib.handler_in_str_to_out_str import handler_in_str_to_out_str
+from operator_aware_lib.check_password import check_password
 import os
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -18,71 +19,60 @@ def pentest():
 
 @app.route("/", methods=["POST"])
 @app.route("/index", methods=["POST"])
-def upload():
+def indexpost():
+
     # Generate and create target path for audio file (static)
     target = os.path.join(APP_ROOT,'static/')
-    # print(target)
     if not os.path.isdir(target):
         os.mkdir(target)
     else:
         print("Coludn't create upload directory: {}".format(target))
 
     # Check the password
-    password_file = open('SupervisorPassword.txt', 'r')
-    pswd_read = password_file.readlines(0)
-    pswd_from_file = pswd_read[0].rstrip()
-    password_file.close()
-    # print('#####################################################')
-    # print('{} is the supervisor password '.format(pswd_from_file))
-    # from pprint import pprint # for troubleshooting
-    # pprint(vars(request)) # for troubleshooting
     pswd_from_user = request.form['password']
-    # print('{} is the user-given password'.format(pswd_from_user))
+    authenticated = check_password(pswd_from_user, password_file_path='SupervisorPassword.txt')
 
-    if pswd_from_user == pswd_from_file:
-        print('Password accepted')
+    if authenticated==0:
+        print("FAILED AUTHORIZATION ATTEMPT - PASSWORD:" + pswd_from_user)
+        return("WRONG SUPERVISOR PASWORD. <br>Contact mitchellpkt to request access")
     else:
-        return('Wrong supervisor password')
+        # Continue ahead
+        net_results_printout = '' # init
 
-    # LOOP OVER UPLOADED FILES
-    net_results_printout = ''
-    print(request.files.getlist("file"))
-    for upload in request.files.getlist("file"):
-        print(upload)
+        # Check which option selected from dropdown
+        what_to_load = request.form['dropdown_selection']
 
-        filename = upload.filename
-        print("{} is the filename".format(filename))
+        if what_to_load == 'upload_call_option':
+            # LOOP OVER UPLOADED FILES
+            print(request.files.getlist("file"))
+            for upload in request.files.getlist("file"):
+                print(upload)
 
-        destination = "/".join([target, filename])
-        print("Accepted incoming file: ", filename)
+                filename = upload.filename
+                print("{} is the filename".format(filename))
 
-        upload.save(destination)
-        print("Saved it to: ", destination)
+                destination = "/".join([target, filename])
+                print("Accepted incoming file: ", filename)
 
-        results_printout = handler_in_str_to_out_str(audio_file_name_w_extension=filename, audio_folder_path=target,
-                                  transcription_directory_path='auto', qVerbose=1, str_dict_version='newest')
+                upload.save(destination)
+                print("Saved it to: ", destination)
 
-        net_results_printout += '****************************<br>'
-        net_results_printout += 'In file ' + filename + ':<br>'
-        net_results_printout += results_printout + "<br><br>"
+                results_printout = handler_in_str_to_out_str(audio_file_name_w_extension=filename, audio_folder_path=target,
+                                          transcription_directory_path='auto', qVerbose=1, str_dict_version='newest')
 
-    return(net_results_printout)
+                net_results_printout += '****************************<br>'
+                net_results_printout += 'In file ' + filename + ':<br>'
+                net_results_printout += results_printout + "<br><br>"
 
-    # for upload in request.files.getlist("file"):
-    #     print(upload)
-    #     print("{} is the file name".format(upload.filename))
-    #     filename = upload.filename
-    #     # This is to verify files are supported
-    #     ext = os.path.splitext(filename)[1]
-    #     if (ext == ".jpg") or (ext == ".png"):
-    #         print("File supported moving on...")
-    #     else:
-    #         render_template("Error.html", message="Files uploaded are not supported...")
-    #     destination = "/".join([target, filename])
-    #     print("Accept incoming file:", filename)
-    #     print("Save it to:", destination)
-    #     upload.save(destination)
-    #
-    # # return send_from_directory("images", filename, as_attachment=True)
-    # return render_template("complete.html", image_name=filename)
+            return(net_results_printout)
 
+        else:
+            results_printout = handler_in_str_to_out_str(audio_file_name_w_extension=what_to_load+'.FLAC', audio_folder_path=target,
+                                                         transcription_directory_path='auto', qVerbose=1,
+                                                         str_dict_version='newest')
+
+            net_results_printout += '****************************<br>'
+            net_results_printout += 'In file ' + what_to_load + ':<br>'
+            net_results_printout += results_printout + "<br><br>"
+
+            return(net_results_printout)
