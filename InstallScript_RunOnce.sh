@@ -1,6 +1,13 @@
 #!/bin/bash
 
 #####################
+## OPERATOR AWARE 
+## MitchellPKT@pm.me
+## Run this once
+#####################
+
+
+#####################
 # Install pip
 echo pip incoming...
 #sudo apt-get install python-pip
