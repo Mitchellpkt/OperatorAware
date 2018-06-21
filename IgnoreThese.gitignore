@@ -7,3 +7,5 @@ __pycache__
 app/__pycache__
 
 operator_aware_lib/__pycache__
+
+*.pyc
