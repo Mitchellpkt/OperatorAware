@@ -54,6 +54,9 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
 
     flac_full_audio_file_path = convert_audio_to_flac(full_audio_file_path)
 
+    if flac_full_audio_file_path == "ERROR_UNKNOWN_EXTENSION":
+        return('Unknown file extension. Please upload mp3, wav, or flac files.')
+
     # Load the audio
     audio_data, audio_config = load_audio_from_filename(flac_full_audio_file_path)
 
