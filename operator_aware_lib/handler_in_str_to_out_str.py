@@ -39,6 +39,7 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     from .evaluate_string import evaluate_string
     from .return_dictionary import return_dictionary
     from .fetch_transcript import fetch_transcript
+    from .convert_audio_to_flac import convert_audio_to_flac
 
     # Form filename
     if audio_folder_path == 'auto':
@@ -51,8 +52,10 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
         # Construct from input path
         full_audio_file_path = os.path.join(audio_folder_path,audio_file_name_w_extension)
 
+    flac_full_audio_file_path = convert_audio_to_flac(full_audio_file_path)
+
     # Load the audio
-    audio_data, audio_config = load_audio_from_filename(full_audio_file_path)
+    audio_data, audio_config = load_audio_from_filename(flac_full_audio_file_path)
 
     # Specify transcription directory
     if transcription_directory_path=='auto':

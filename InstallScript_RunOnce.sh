@@ -57,10 +57,21 @@ gpg -d --output OperatorAware-5f653aaf3399.json OperatorAware-5f653aaf3399.json.
 
 #####################
 # make .gitignore
+echo creating .gitignore file
 cp IgnoreThese.gitignore .gitignore
 
 #####################
 # Create supervisor password
+echo Setting default password: "DefaultPassword"
 echo DefaultPassword>SupervisorPassword.txt
 
+#####################
+# Perhaps need ffmpeg?
+echo ffmpeg incoming...
+sudo apt-get install ffmpeg
+
+#####################
+# Pydub
+echo Pydub incoming...
+pip3 install pydub
 
