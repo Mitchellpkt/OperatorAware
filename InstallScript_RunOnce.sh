@@ -69,6 +69,8 @@ echo DefaultPassword>SupervisorPassword.txt
 # Perhaps need ffmpeg?
 echo ffmpeg incoming...
 sudo apt-get install ffmpeg
+# sudo apt-get install libav-tools libavcodec-extra-53
+# sudo apt-get install ffmpeg libavcodec-extra-53
 
 #####################
 # Pydub

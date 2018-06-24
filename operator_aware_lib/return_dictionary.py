@@ -30,27 +30,26 @@
 #
 
 def return_dictionary(str_dict_version='newest'):
-
 	# Use newest, if requested
 	if str_dict_version == 'newest':
 		use_str_dict_version = 'v0'
 	else:
 		use_str_dict_version = str_dict_version
-	
+
 	# Original prescribed dictionary
 	if use_str_dict_version == 'v0':
 		danger_words = {'weaponWords': ['knife', 'gun', 'weapon', 'shoot', 'shot', 'armed', 'shotgun', 'handgun'],
-		    'medicalWords': ['heart','stroke','breathing','unconscious','collapsed'],
-		    'vehicleWords': ['crash', 'accident','airbag'],
-		    'domesticWords': ['domestic','abuse','fight','argument','arguing','relationship'],
-		    'fireWords': ['fire','burn','arson'],
-		    'miscWords': ['violent','suicidal', 'suicide','drunk']};
+		'medicalWords': ['heart','stroke','breathing','unconscious','collapsed'],
+		'vehicleWords': ['crash', 'accident','airbag'],
+		'domesticWords': ['domestic','abuse','fight','argument','arguing','relationship'],
+		'fireWords': ['fire','burn','arson'],
+		'miscWords': ['violent','suicidal', 'suicide','drunk']}
 
 		danger_names = {'weaponWords': 'weapon',
-		    'medicalWords': 'medical emergency',
-		    'vehicleWords': 'car crash',
-		    'domesticWords': 'domestic altercation',
-		    'fireWords': 'fire',
-		    'miscWords': 'miscellaneuos'};
+		'medicalWords': 'medical emergency',
+		'vehicleWords': 'car crash',
+		'domesticWords': 'domestic altercation',
+		'fireWords': 'fire',
+		'miscWords': 'miscellaneuos'}
 
 	return danger_words, danger_names

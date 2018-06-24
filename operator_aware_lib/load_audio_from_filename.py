@@ -40,9 +40,9 @@ def load_audio_from_filename(str_audio_filename):
     #    sound_filename + '.flac')
 
     # Confirm that this is a FLAC file
-    str_extension = str_audio_filename[-4:]
-    if str_extension.upper() != 'FLAC':
-       raise ValueError('This version of load_audio_from_filename only works for FLAC files')
+    # str_extension = str_audio_filename[-4:]
+    # if str_extension.upper() != 'FLAC':
+    #   raise ValueError('This version of load_audio_from_filename only works for FLAC files')
 
 
     ### Load the audio into memory
@@ -52,7 +52,7 @@ def load_audio_from_filename(str_audio_filename):
 
     audio_config = types.RecognitionConfig(
         encoding=enums.RecognitionConfig.AudioEncoding.FLAC,
-        # sample_rate_hertz=8000,#16000
+        sample_rate_hertz=8000,#16000
         language_code='en-US')
 
     return audio_data, audio_config

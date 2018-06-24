@@ -32,7 +32,7 @@
 # EXAMPLE:
 #
 
-def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='auto',transcription_directory_path='auto',qVerbose=0,str_dict_version='newest'):
+def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='auto',transcription_directory_path='auto',qVerbose=1,str_dict_version='newest'):
     # Load in the relevant modules,
     import os
     from .load_audio_from_filename import load_audio_from_filename
@@ -40,6 +40,7 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     from .return_dictionary import return_dictionary
     from .fetch_transcript import fetch_transcript
     from .convert_audio_to_flac import convert_audio_to_flac
+    from .chop_up_audio import chop_up_audio
 
     # Form filename
     if audio_folder_path == 'auto':
@@ -52,29 +53,51 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
         # Construct from input path
         full_audio_file_path = os.path.join(audio_folder_path,audio_file_name_w_extension)
 
+    # Convert the audio to flask
     flac_full_audio_file_path = convert_audio_to_flac(full_audio_file_path)
 
     if flac_full_audio_file_path == "ERROR_UNKNOWN_EXTENSION":
         return('Unknown file extension. Please upload mp3, wav, or flac files.')
 
-    # Load the audio
-    audio_data, audio_config = load_audio_from_filename(flac_full_audio_file_path)
+    # Chop the audio into < 1 min pieces
+    num_segments = chop_up_audio(flac_full_audio_file_path)
 
-    # Specify transcription directory
-    if transcription_directory_path=='auto':
-        use_transcript_directory = os.path.join(
-            os.getcwd(),
-            'CACHE_transcriptions')
-    else:
-        use_transcript_directory = transcription_directory_path
+    # Init for loop
+    net_categories = ''
+    net_words = ''
+    net_results_printout = ''
 
-    # Fetch the transcript
-    transcription_str = fetch_transcript(audio_data, audio_config, use_transcript_directory, qVerbose=qVerbose, force_fresh=0, do_not_save=0)
+    # Loop over each audio segment
+    for n in list(range(1, num_segments+1)):
+        # Load the audio
+        segment_filename = flac_full_audio_file_path+'.'+str(n)
+        audio_data, audio_config = load_audio_from_filename(segment_filename)
+        print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
+        print('Loading: ' + segment_filename)
 
-    # Retrieve the dictionary
-    danger_words, danger_names = return_dictionary(str_dict_version=str_dict_version)
+        # Specify transcription directory
+        if transcription_directory_path=='auto':
+            use_transcript_directory = os.path.join(
+                os.getcwd(),
+                'CACHE_transcriptions')
+        else:
+            use_transcript_directory = transcription_directory_path
 
-    # Evaluate the call
-    is_urgent, category_list, word_list, results_printout = evaluate_string(transcription_str, danger_words, danger_names)
+        # Fetch the transcript
+        transcription_str = fetch_transcript(audio_data, audio_config, use_transcript_directory, qVerbose=qVerbose, force_fresh=0, do_not_save=0)
+        print('Transcription for segment:')
+        print(transcription_str)
 
-    return results_printout
+        # Retrieve the dictionary
+        danger_words, danger_names = return_dictionary(str_dict_version=str_dict_version)
+
+        # Evaluate the call
+        is_urgent, category_list, word_list, results_printout = evaluate_string(transcription_str, danger_words, danger_names)
+        print('Danger words:')
+        print(danger_words)
+
+        net_categories += category_list
+        net_words += word_list
+        net_results_printout += results_printout
+
+    return net_results_printout
