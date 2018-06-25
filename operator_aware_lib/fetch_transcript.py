@@ -44,6 +44,9 @@ def fetch_transcript(audio_data, audio_config,transcript_directory,qVerbose=0,fo
     hash_object = hashlib.sha256(audio_data.SerializePartialToString())
     hex_dig = hash_object.hexdigest()
 
+    if not os.path.isdir(transcript_directory):
+        os.mkdir(transcript_directory)
+
     # Where should the transcript be stored
     transcription_filename = os.path.join(transcript_directory, hex_dig + '.txt')
 
