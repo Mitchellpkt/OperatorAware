@@ -8,6 +8,8 @@ app/__pycache__
 
 app/static
 
+app/uploads
+
 operator_aware_lib/__pycache__
 
 *.pyc
@@ -15,3 +17,4 @@ operator_aware_lib/__pycache__
 CACHE_transcriptions
 
 scraping/call_files
+
