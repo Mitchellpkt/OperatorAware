@@ -1,0 +1,1843 @@
+<head>
+<title>911callers.com - Real 911 Phone Calls</title> 
+<META name="description"  content="Listen to real 911 emergency telephone calls online.">  
+<META name="keywords" content="911 phone calls, 911 calls, 911 callers, 911 phonecalls, 911 calling, joke calls, crank calls, crank calling, prankster calls, prank callers, phone call pranks, phone prank, phone pranking, phone pranks, humor, silly jokes, stupid jokes, dumb jokes">
+
+<style type="text/css"> 
+.style1 { 
+     font-family: Verdana, Arial, Helvetica, sans-serif; 
+     font-size: 12px; 
+     font-weight: bold; 
+} 
+
+.style2 {font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif;} 
+
+.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #CC0000; } 
+.style5 {font-size: 16px} 
+.style6 {font-size: 12px} 
+.style7 {font-weight: bold} 
+
+
+
+
+</style>
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#FFFFFF">
+<table width="778" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="images/header.gif" width="778" height="120"></td>
+  </tr>
+</table>
+<table width="778" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="19" background="images/bg.gif"><div align="center"></div></td>
+  </tr>
+</table>
+<table width="778" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="175" background="images/bg.gif" valign="top"><div align="center">
+
+
+
+Important Info About<BR>
+<A HREF="911info.html">How To Call 911</a><P>
+
+<!-- Index Platform: 300x600, 160x600, 120x600 (Tower) -->
+<script type="text/javascript">
+var CasaleArgs = new Object();
+CasaleArgs.version = 2;
+CasaleArgs.adUnits = "8,5,3";
+CasaleArgs.casaleID = 79329;
+</script>
+<script type="text/javascript" src="http://js.casalemedia.com/casaleJTag.js"></script>
+<!-- DO NOT MODIFY -->
+
+   </div></td>
+
+ <td width="643" background="images/bg.gif" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="13"><div align="center">
+              <span class="style2"><B>The goal of our site is to educate the public about 911 emergency phone calls by posting real calls online so people know what to expect if they ever need to 911. We also showcase dozens of stupid and wacky 911 calls as examples of how people abuse the 911 system. It is estimated that 35% of all 911 calls are illegitimate (pranks, hangups, non-emergencies). <p></B></span></div></td>
+      </tr>
+    </table>      
+
+
+<table width="100%" cellspacing='0' cellpadding='4'>
+      <tr class="style2">
+        <!-- <td><div align="left" class="style2 style5"><strong>Order</strong></div></td> -->
+        <td><div align="left" class="style2 style5"><strong>911 Call Title</strong></div></td>
+        <td width=15%><div align="left" class="style5 style2"><strong>Listen</strong></div></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#1</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">All tied up</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=all_tied_up.swf&title=All tied up" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>All tied up</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#14</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Bad joke</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=bad_joke.swf&title=Bad joke" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Bad joke</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#2</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Big foot</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=big_foot.swf&title=Big foot" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Big foot</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#3</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Boochie ran away</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=boochie_ran_away.swf&title=Boochie ran away" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Boochie ran away</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#4</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Burger 911</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=burger_911.swf&title=Burger 911" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Burger 911</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#5</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Butterfly man</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=butterfly_man.swf&title=Butterfly man" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Butterfly man</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#6</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Dispatcher becomes teacher</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=dispatcher_becomes_teacher.swf&title=Dispatcher becomes teacher" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Dispatcher becomes teacher</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#7</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Granny wants a beer</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=granny_wants_a_beer.swf&title=Granny wants a beer" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Granny wants a beer</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#10</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Help i'm stuck</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=help_im_stuck.swf&title=Help i'm stuck" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Help i'm stuck</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#8</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Help my mouth</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=help_my_mouth.swf&title=Help my mouth" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Help my mouth</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#11</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Homelss man wedding</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=homelss_man_wedding.swf&title=Homelss man wedding" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Homelss man wedding</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#9</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">I want my taco</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=i_want_my_taco.swf&title=I want my taco" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>I want my taco</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#12</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Joe vs deer</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=joe_vs_deer.swf&title=Joe vs deer" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Joe vs deer</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#13</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Kill my cat</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=kill_my_cat.swf&title=Kill my cat" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Kill my cat</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#15</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Pissed off granny</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=pissed_off_granny.swf&title=Pissed off granny" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Pissed off granny</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#16</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">She sold my tv</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=she_sold_my_tv.swf&title=She sold my tv" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>She sold my tv</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#17</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">The sheet chasers</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=the_sheet_chasers.swf&title=The sheet chasers" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>The sheet chasers</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#18</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Trapped in a bag</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=trapped_in_a_bag.swf&title=Trapped in a bag" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Trapped in a bag</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#19</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Wifes got mase</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=wifes_got_mase.swf&title=Wifes got mase" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Wifes got mase</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#20</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Yummy hair color</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=yummy_hair_color.swf&title=Yummy hair color" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Yummy hair color</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#89</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">6 Year-Old Boy Saves Grandma's Life by Calling 911</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=9116yearoldboycalls911.mp3&title=6 Year-Old Boy Saves Grandma's Life by Calling 911" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>6 Year-Old Boy Saves Grandma's Life by Calling 911</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#88</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Woman tracks down a man who attacked her</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911womantracksdownattacker.mp3&title=Woman tracks down a man who attacked her" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Woman tracks down a man who attacked her</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#87</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Fire at 10-unit apartment complex in Massillion Ohio</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911massillionfire.mp3&title=Fire at 10-unit apartment complex in Massillion Ohio" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Fire at 10-unit apartment complex in Massillion Ohio</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#86</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Taco Problem</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911taco.mp3&title=Taco Problem" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Taco Problem</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#85</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">UNC Terror Attack</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911uncterrorattack.mp3&title=UNC Terror Attack" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>UNC Terror Attack</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#84</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Shooting At Bank in Mall</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911mallbankshooting.mp3&title=Shooting At Bank in Mall" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Shooting At Bank in Mall</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#83</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">911 call made by a murder suspect</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911murdersuspect.mp3&title=911 call made by a murder suspect" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>911 call made by a murder suspect</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#82</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Police Shooting At Truck</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911moranchase.mp3&title=Police Shooting At Truck" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Police Shooting At Truck</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#81</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Man distraught about receiving divorce papers</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911distraughtmandivorce.mp3&title=Man distraught about receiving divorce papers" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Man distraught about receiving divorce papers</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#80</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Capitol Grill Fire in Golden Colorado</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911capitolgrillfire.mp3&title=Capitol Grill Fire in Golden Colorado" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Capitol Grill Fire in Golden Colorado</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#79</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Kaloko Reservoir Dam on Kaua'i in Hawaii Breaks</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911kalokodambreaks.mp3&title=Kaloko Reservoir Dam on Kaua'i in Hawaii Breaks" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Kaloko Reservoir Dam on Kaua'i in Hawaii Breaks</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#78</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Armored Van Shooting</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911armoredvanshooting091506.mp3&title=Armored Van Shooting" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Armored Van Shooting</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#77</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Anabella Vara kidnapped at gunpoint by her estranged husband</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911anabellavara.mp3&title=Anabella Vara kidnapped at gunpoint by her estranged husband" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Anabella Vara kidnapped at gunpoint by her estranged husband</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#76</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">What To Do If Your Car Brakes Fail</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911liebrakesfailed.mp3&title=What To Do If Your Car Brakes Fail" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>What To Do If Your Car Brakes Fail</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#75</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">New York Yankees pitcher David Wells calls when he is assualted</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911davidwells.mp3&title=New York Yankees pitcher David Wells calls when he is assualted" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>New York Yankees pitcher David Wells calls when he is assualted</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#74</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">15 Year-Old Driving Stolen Bus</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911kiddrivingbus.mp3&title=15 Year-Old Driving Stolen Bus" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>15 Year-Old Driving Stolen Bus</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#73</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">San Francisco Hit & Run Rampage 08/29/06</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911sfhitandrunrampage.mp3&title=San Francisco Hit & Run Rampage 08/29/06" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>San Francisco Hit & Run Rampage 08/29/06</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#72</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Big Foot Sighting</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911bigfoot.mp3&title=Big Foot Sighting" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Big Foot Sighting</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#71</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Messed Up Burger King Order</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911burgerking.mp3&title=Messed Up Burger King Order" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Messed Up Burger King Order</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#70</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Bad Joke by 911 Operator</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=911badjoke.mp3&title=Bad Joke by 911 Operator" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Bad Joke by 911 Operator</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#69</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Butterfly man</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track402 - Butterfly man.mp3&title=Butterfly man" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Butterfly man</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#68</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Checking</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track420 - Checking.mp3&title=Checking" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Checking</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#67</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">A dead body in front of my house</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track302 - A dead body in front of my house.mp3&title=A dead body in front of my house" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>A dead body in front of my house</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right"><span class="style9"><span class="pagelink">89 911 calls </span>&nbsp;<span class="pagelink"> Pages:</span>&nbsp;<span class="pagecurrent"><a href="index-0.html" title="0">1</a></span>&nbsp;<span class="pagelinklast"><a href="index-23.html" title="23">2</a></span>&nbsp;<span class="pagelinklast"><a href="index-46.html" title="46">3</a></span>&nbsp;<span class="pagelinklast"><a href="index-69.html" title="69">4</a></span>&nbsp;<span class="pagelink"><a href="index-23.html" title="Next Page">&gt;</a></span>&nbsp;</span></td>
+      </tr>
+    </table>    </td>
+  </tr>
+</table>
+
+<head>
+<title>911callers.com - Real 911 Phone Calls</title> 
+<META name="description"  content="Listen to real 911 emergency telephone calls online.">  
+<META name="keywords" content="911 phone calls, 911 calls, 911 callers, 911 phonecalls, 911 calling, joke calls, crank calls, crank calling, prankster calls, prank callers, phone call pranks, phone prank, phone pranking, phone pranks, humor, silly jokes, stupid jokes, dumb jokes">
+
+<style type="text/css"> 
+.style1 { 
+     font-family: Verdana, Arial, Helvetica, sans-serif; 
+     font-size: 12px; 
+     font-weight: bold; 
+} 
+
+.style2 {font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif;} 
+
+.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #CC0000; } 
+.style5 {font-size: 16px} 
+.style6 {font-size: 12px} 
+.style7 {font-weight: bold} 
+
+
+
+
+</style>
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#FFFFFF">
+<table width="778" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="images/header.gif" width="778" height="120"></td>
+  </tr>
+</table>
+<table width="778" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="19" background="images/bg.gif"><div align="center"></div></td>
+  </tr>
+</table>
+<table width="778" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="175" background="images/bg.gif" valign="top"><div align="center">
+
+
+
+Important Info About<BR>
+<A HREF="911info.html">How To Call 911</a><P>
+
+<!-- Index Platform: 300x600, 160x600, 120x600 (Tower) -->
+<script type="text/javascript">
+var CasaleArgs = new Object();
+CasaleArgs.version = 2;
+CasaleArgs.adUnits = "8,5,3";
+CasaleArgs.casaleID = 79329;
+</script>
+<script type="text/javascript" src="http://js.casalemedia.com/casaleJTag.js"></script>
+<!-- DO NOT MODIFY -->
+
+   </div></td>
+
+ <td width="643" background="images/bg.gif" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="13"><div align="center">
+              <span class="style2"><B>The goal of our site is to educate the public about 911 emergency phone calls by posting real calls online so people know what to expect if they ever need to 911. We also showcase dozens of stupid and wacky 911 calls as examples of how people abuse the 911 system. It is estimated that 35% of all 911 calls are illegitimate (pranks, hangups, non-emergencies). <p></B></span></div></td>
+      </tr>
+    </table>      
+
+
+<table width="100%" cellspacing='0' cellpadding='4'>
+      <tr class="style2">
+        <!-- <td><div align="left" class="style2 style5"><strong>Order</strong></div></td> -->
+        <td><div align="left" class="style2 style5"><strong>911 Call Title</strong></div></td>
+        <td width=15%><div align="left" class="style5 style2"><strong>Listen</strong></div></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#1</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">All tied up</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=all_tied_up.swf&title=All tied up" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>All tied up</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#14</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Bad joke</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=bad_joke.swf&title=Bad joke" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Bad joke</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#2</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Big foot</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=big_foot.swf&title=Big foot" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Big foot</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#3</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Boochie ran away</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=boochie_ran_away.swf&title=Boochie ran away" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Boochie ran away</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#4</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Burger 911</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=burger_911.swf&title=Burger 911" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Burger 911</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#5</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Butterfly man</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=butterfly_man.swf&title=Butterfly man" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Butterfly man</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#6</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Dispatcher becomes teacher</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=dispatcher_becomes_teacher.swf&title=Dispatcher becomes teacher" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Dispatcher becomes teacher</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#7</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Granny wants a beer</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=granny_wants_a_beer.swf&title=Granny wants a beer" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Granny wants a beer</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#10</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Help i'm stuck</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=help_im_stuck.swf&title=Help i'm stuck" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Help i'm stuck</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#8</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Help my mouth</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=help_my_mouth.swf&title=Help my mouth" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Help my mouth</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#11</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Homelss man wedding</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=homelss_man_wedding.swf&title=Homelss man wedding" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Homelss man wedding</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#9</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">I want my taco</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=i_want_my_taco.swf&title=I want my taco" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>I want my taco</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#12</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Joe vs deer</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=joe_vs_deer.swf&title=Joe vs deer" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Joe vs deer</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#13</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Kill my cat</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=kill_my_cat.swf&title=Kill my cat" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Kill my cat</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#15</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Pissed off granny</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=pissed_off_granny.swf&title=Pissed off granny" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Pissed off granny</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#16</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">She sold my tv</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=she_sold_my_tv.swf&title=She sold my tv" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>She sold my tv</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#17</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">The sheet chasers</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=the_sheet_chasers.swf&title=The sheet chasers" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>The sheet chasers</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#18</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Trapped in a bag</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=trapped_in_a_bag.swf&title=Trapped in a bag" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Trapped in a bag</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#19</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Wifes got mase</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=wifes_got_mase.swf&title=Wifes got mase" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Wifes got mase</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#20</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Yummy hair color</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=yummy_hair_color.swf&title=Yummy hair color" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Yummy hair color</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#66</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">She Hung Up On Me</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track307 - She's up on me.mp3&title=She Hung Up On Me" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>She Hung Up On Me</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#65</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">My Boochee is gone!</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track209 - My Boochee is gone!.mp3&title=My Boochee is gone!" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>My Boochee is gone!</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#64</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">He's scared of me</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track117 - He's scared of me.mp3&title=He's scared of me" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>He's scared of me</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#63</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">My Fiancee</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track206 - My Fiancee.mp3&title=My Fiancee" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>My Fiancee</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#62</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Looking for someone</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track318 - Looking for someone.mp3&title=Looking for someone" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Looking for someone</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#61</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Chatting with 911</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track322 - Chatting with 911.mp3&title=Chatting with 911" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Chatting with 911</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#60</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Where's my truck</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track411 - Where's my truck.mp3&title=Where's my truck" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Where's my truck</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#59</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Assault with batteries</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track421 - Assault with batteries.mp3&title=Assault with batteries" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Assault with batteries</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#58</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Level of Education</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track332 - Level of Education.mp3&title=Level of Education" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Level of Education</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#57</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Just A Test</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track415 - Just A Test.mp3&title=Just A Test" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Just A Test</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#56</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">OK, you're a cab</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track314 - OK, you're a cab.mp3&title=OK, you're a cab" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>OK, you're a cab</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#55</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">We have a  child here</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track219 - We have a  child here.mp3&title=We have a  child here" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>We have a  child here</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#54</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Breaks into the house</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track328 - Breaks into the house.mp3&title=Breaks into the house" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Breaks into the house</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#53</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Cellphonel problem Troubles 911</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track324 - Cellphonel problem Troubles 911.mp3&title=Cellphonel problem Troubles 911" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Cellphonel problem Troubles 911</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#52</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Report a stealing</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track214 - Report a stealing.mp3&title=Report a stealing" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Report a stealing</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#51</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Sundown</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track417 - Sundown.mp3&title=Sundown" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Sundown</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#50</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Black Magic</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track115 - Black Magic.mp3&title=Black Magic" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Black Magic</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#49</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Get it away</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track210 - Get it away.mp3&title=Get it away" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Get it away</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#48</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">I need ambulance, but not now</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track315 - I need ambulance, but not now.mp3&title=I need ambulance, but not now" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>I need ambulance, but not now</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#47</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Who pressed the 911 button</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track321 - Who pressed the 911 button.mp3&title=Who pressed the 911 button" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Who pressed the 911 button</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#46</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Joe vs. the Deer</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track403 - Joe vs. the Deer.mp3&title=Joe vs. the Deer" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Joe vs. the Deer</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#45</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Someone hit a Deer</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track218 - Someone hit a Deer.mp3&title=Someone hit a Deer" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Someone hit a Deer</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#44</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Hit on a dog</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track212 - Hit on a dog.mp3&title=Hit on a dog" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Hit on a dog</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right"><span class="style9"><span class="pagelink">89 911 calls </span>&nbsp;<span class="pagelink"> Pages:</span>&nbsp;<span class="pagelinklast"><a href="index-0.html" title="Previous Page">&lt;</a></span>&nbsp;<span class="pagelinklast"><a href="index-0.html" title="0">1</a></span>&nbsp;<span class="pagecurrent"><a href="index-23.html" title="23">2</a></span>&nbsp;<span class="pagelinklast"><a href="index-46.html" title="46">3</a></span>&nbsp;<span class="pagelinklast"><a href="index-69.html" title="69">4</a></span>&nbsp;</span></td>
+      </tr>
+    </table>    </td>
+  </tr>
+</table>
+
+
+<head>
+<title>911callers.com - Real 911 Phone Calls</title> 
+<META name="description"  content="Listen to real 911 emergency telephone calls online.">  
+<META name="keywords" content="911 phone calls, 911 calls, 911 callers, 911 phonecalls, 911 calling, joke calls, crank calls, crank calling, prankster calls, prank callers, phone call pranks, phone prank, phone pranking, phone pranks, humor, silly jokes, stupid jokes, dumb jokes">
+
+<style type="text/css"> 
+.style1 { 
+     font-family: Verdana, Arial, Helvetica, sans-serif; 
+     font-size: 12px; 
+     font-weight: bold; 
+} 
+
+.style2 {font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif;} 
+
+.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #CC0000; } 
+.style5 {font-size: 16px} 
+.style6 {font-size: 12px} 
+.style7 {font-weight: bold} 
+
+
+
+
+</style>
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#FFFFFF">
+<table width="778" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="images/header.gif" width="778" height="120"></td>
+  </tr>
+</table>
+<table width="778" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="19" background="images/bg.gif"><div align="center"></div></td>
+  </tr>
+</table>
+<table width="778" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="175" background="images/bg.gif" valign="top"><div align="center">
+
+
+
+Important Info About<BR>
+<A HREF="911info.html">How To Call 911</a><P>
+
+<!-- Index Platform: 300x600, 160x600, 120x600 (Tower) -->
+<script type="text/javascript">
+var CasaleArgs = new Object();
+CasaleArgs.version = 2;
+CasaleArgs.adUnits = "8,5,3";
+CasaleArgs.casaleID = 79329;
+</script>
+<script type="text/javascript" src="http://js.casalemedia.com/casaleJTag.js"></script>
+<!-- DO NOT MODIFY -->
+
+   </div></td>
+
+ <td width="643" background="images/bg.gif" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="13"><div align="center">
+              <span class="style2"><B>The goal of our site is to educate the public about 911 emergency phone calls by posting real calls online so people know what to expect if they ever need to 911. We also showcase dozens of stupid and wacky 911 calls as examples of how people abuse the 911 system. It is estimated that 35% of all 911 calls are illegitimate (pranks, hangups, non-emergencies). <p></B></span></div></td>
+      </tr>
+    </table>      
+
+
+<table width="100%" cellspacing='0' cellpadding='4'>
+      <tr class="style2">
+        <!-- <td><div align="left" class="style2 style5"><strong>Order</strong></div></td> -->
+        <td><div align="left" class="style2 style5"><strong>911 Call Title</strong></div></td>
+        <td width=15%><div align="left" class="style5 style2"><strong>Listen</strong></div></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#1</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">All tied up</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=all_tied_up.swf&title=All tied up" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>All tied up</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#14</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Bad joke</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=bad_joke.swf&title=Bad joke" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Bad joke</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#2</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Big foot</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=big_foot.swf&title=Big foot" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Big foot</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#3</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Boochie ran away</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=boochie_ran_away.swf&title=Boochie ran away" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Boochie ran away</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#4</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Burger 911</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=burger_911.swf&title=Burger 911" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Burger 911</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#5</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Butterfly man</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=butterfly_man.swf&title=Butterfly man" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Butterfly man</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#6</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Dispatcher becomes teacher</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=dispatcher_becomes_teacher.swf&title=Dispatcher becomes teacher" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Dispatcher becomes teacher</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#7</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Granny wants a beer</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=granny_wants_a_beer.swf&title=Granny wants a beer" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Granny wants a beer</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#10</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Help i'm stuck</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=help_im_stuck.swf&title=Help i'm stuck" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Help i'm stuck</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#8</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Help my mouth</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=help_my_mouth.swf&title=Help my mouth" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Help my mouth</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#11</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Homelss man wedding</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=homelss_man_wedding.swf&title=Homelss man wedding" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Homelss man wedding</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#9</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">I want my taco</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=i_want_my_taco.swf&title=I want my taco" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>I want my taco</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#12</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Joe vs deer</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=joe_vs_deer.swf&title=Joe vs deer" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Joe vs deer</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#13</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Kill my cat</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=kill_my_cat.swf&title=Kill my cat" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Kill my cat</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#15</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Pissed off granny</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=pissed_off_granny.swf&title=Pissed off granny" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Pissed off granny</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#16</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">She sold my tv</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=she_sold_my_tv.swf&title=She sold my tv" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>She sold my tv</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#17</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">The sheet chasers</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=the_sheet_chasers.swf&title=The sheet chasers" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>The sheet chasers</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#18</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Trapped in a bag</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=trapped_in_a_bag.swf&title=Trapped in a bag" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Trapped in a bag</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#19</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Wifes got mase</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=wifes_got_mase.swf&title=Wifes got mase" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Wifes got mase</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#20</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Yummy hair color</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=yummy_hair_color.swf&title=Yummy hair color" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Yummy hair color</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#43</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">The red caddy</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track414 - The red caddy.mp3&title=The red caddy" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>The red caddy</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#42</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Need to go hospital</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track308 - Need to go hospital.mp3&title=Need to go hospital" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Need to go hospital</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#41</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Operator #4</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track408 - Operator4.mp3&title=Operator #4" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Operator #4</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#40</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Tell me the Italian</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track205 - Tell me the Italian.mp3&title=Tell me the Italian" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Tell me the Italian</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#39</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">411 Health official</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track323 - 411 Health official.mp3&title=411 Health official" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>411 Health official</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#38</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Open the bottle</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track208 - Open the bottle.mp3&title=Open the bottle" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Open the bottle</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#37</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Cop 2000</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track305 - Cop 2000.mp3&title=Cop 2000" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Cop 2000</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#36</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Something in a bag</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track320 - Something in a bag.mp3&title=Something in a bag" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Something in a bag</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#35</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Listen to me, Rap!</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track303 - Listen to me, Rap!.mp3&title=Listen to me, Rap!" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Listen to me, Rap!</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#34</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Something's growing in my mouth</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track304 - Something's growing in my mouth.mp3&title=Something's growing in my mouth" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Something's growing in my mouth</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#33</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Stapling girl</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track103 - Stapling girl.mp3&title=Stapling girl" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Stapling girl</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#32</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">What a jerk</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track220 - What a jerk.mp3&title=What a jerk" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>What a jerk</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#31</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">My leg is itchy</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track423 - My leg is itchy.mp3&title=My leg is itchy" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>My leg is itchy</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#30</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Complaint about the fine</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track116 - Complaint about the fine.mp3&title=Complaint about the fine" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Complaint about the fine</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#29</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Laser beam</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track413 - Laser beam.mp3&title=Laser beam" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Laser beam</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#28</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Option Encharge Place</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track312 - Option Encharge Place.mp3&title=Option Encharge Place" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Option Encharge Place</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#27</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Two men are chasing me</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track111 - Two men are chasing me.mp3&title=Two men are chasing me" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Two men are chasing me</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#26</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Help me do the Math</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track306 - Help me do the Math.mp3&title=Help me do the Math" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Help me do the Math</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#25</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Trifle</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track207 - Trifle.mp3&title=Trifle" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Trifle</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#24</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Here kitty kitty</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track407 - Here kitty kitty.mp3&title=Here kitty kitty" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Here kitty kitty</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#23</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">411 v.s. 911</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track319 - 411 v.s. 911.mp3&title=411 v.s. 911" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>411 v.s. 911</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#22</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Drive to the hospital</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track311 - Drive to the hospital.mp3&title=Drive to the hospital" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Drive to the hospital</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#21</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Sundown</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track325 - Sundown.mp3&title=Sundown" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Sundown</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right"><span class="style9"><span class="pagelink">89 911 calls </span>&nbsp;<span class="pagelink"> Pages:</span>&nbsp;<span class="pagelinklast"><a href="index-23.html" title="Previous Page">&lt;</a></span>&nbsp;<span class="pagelinklast"><a href="index-0.html" title="0">1</a></span>&nbsp;<span class="pagelinklast"><a href="index-23.html" title="23">2</a></span>&nbsp;<span class="pagecurrent"><a href="index-46.html" title="46">3</a></span>&nbsp;<span class="pagelinklast"><a href="index-69.html" title="69">4</a></span>&nbsp;</span></td>
+      </tr>
+    </table>    </td>
+  </tr>
+</table>
+
+
+<head>
+<title>911callers.com - Real 911 Phone Calls</title> 
+<META name="description"  content="Listen to real 911 emergency telephone calls online.">  
+<META name="keywords" content="911 phone calls, 911 calls, 911 callers, 911 phonecalls, 911 calling, joke calls, crank calls, crank calling, prankster calls, prank callers, phone call pranks, phone prank, phone pranking, phone pranks, humor, silly jokes, stupid jokes, dumb jokes">
+
+<style type="text/css"> 
+.style1 { 
+     font-family: Verdana, Arial, Helvetica, sans-serif; 
+     font-size: 12px; 
+     font-weight: bold; 
+} 
+
+.style2 {font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif;} 
+
+.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #CC0000; } 
+.style5 {font-size: 16px} 
+.style6 {font-size: 12px} 
+.style7 {font-weight: bold} 
+
+
+
+
+</style>
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#FFFFFF">
+<table width="778" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="images/header.gif" width="778" height="120"></td>
+  </tr>
+</table>
+<table width="778" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="19" background="images/bg.gif"><div align="center"></div></td>
+  </tr>
+</table>
+<table width="778" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="175" background="images/bg.gif" valign="top"><div align="center">
+
+
+
+Important Info About<BR>
+<A HREF="911info.html">How To Call 911</a><P>
+
+<!-- Index Platform: 300x600, 160x600, 120x600 (Tower) -->
+<script type="text/javascript">
+var CasaleArgs = new Object();
+CasaleArgs.version = 2;
+CasaleArgs.adUnits = "8,5,3";
+CasaleArgs.casaleID = 79329;
+</script>
+<script type="text/javascript" src="http://js.casalemedia.com/casaleJTag.js"></script>
+<!-- DO NOT MODIFY -->
+
+   </div></td>
+
+ <td width="643" background="images/bg.gif" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="13"><div align="center">
+              <span class="style2"><B>The goal of our site is to educate the public about 911 emergency phone calls by posting real calls online so people know what to expect if they ever need to 911. We also showcase dozens of stupid and wacky 911 calls as examples of how people abuse the 911 system. It is estimated that 35% of all 911 calls are illegitimate (pranks, hangups, non-emergencies). <p></B></span></div></td>
+      </tr>
+    </table>      
+
+
+<table width="100%" cellspacing='0' cellpadding='4'>
+      <tr class="style2">
+        <!-- <td><div align="left" class="style2 style5"><strong>Order</strong></div></td> -->
+        <td><div align="left" class="style2 style5"><strong>911 Call Title</strong></div></td>
+        <td width=15%><div align="left" class="style5 style2"><strong>Listen</strong></div></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#1</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">All tied up</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=all_tied_up.swf&title=All tied up" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>All tied up</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#14</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Bad joke</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=bad_joke.swf&title=Bad joke" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Bad joke</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#2</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Big foot</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=big_foot.swf&title=Big foot" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Big foot</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#3</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Boochie ran away</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=boochie_ran_away.swf&title=Boochie ran away" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Boochie ran away</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#4</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Burger 911</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=burger_911.swf&title=Burger 911" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Burger 911</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#5</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Butterfly man</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=butterfly_man.swf&title=Butterfly man" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Butterfly man</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#6</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Dispatcher becomes teacher</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=dispatcher_becomes_teacher.swf&title=Dispatcher becomes teacher" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Dispatcher becomes teacher</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#7</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Granny wants a beer</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=granny_wants_a_beer.swf&title=Granny wants a beer" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Granny wants a beer</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#10</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Help i'm stuck</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=help_im_stuck.swf&title=Help i'm stuck" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Help i'm stuck</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#8</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Help my mouth</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=help_my_mouth.swf&title=Help my mouth" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Help my mouth</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#11</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Homelss man wedding</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=homelss_man_wedding.swf&title=Homelss man wedding" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Homelss man wedding</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#9</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">I want my taco</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=i_want_my_taco.swf&title=I want my taco" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>I want my taco</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#12</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Joe vs deer</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=joe_vs_deer.swf&title=Joe vs deer" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Joe vs deer</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#13</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Kill my cat</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=kill_my_cat.swf&title=Kill my cat" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Kill my cat</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#15</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Pissed off granny</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=pissed_off_granny.swf&title=Pissed off granny" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Pissed off granny</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#16</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">She sold my tv</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=she_sold_my_tv.swf&title=She sold my tv" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>She sold my tv</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#17</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">The sheet chasers</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=the_sheet_chasers.swf&title=The sheet chasers" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>The sheet chasers</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#18</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Trapped in a bag</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=trapped_in_a_bag.swf&title=Trapped in a bag" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Trapped in a bag</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#19</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Wifes got mase</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=wifes_got_mase.swf&title=Wifes got mase" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Wifes got mase</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#20</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Yummy hair color</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=yummy_hair_color.swf&title=Yummy hair color" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Yummy hair color</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#20</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Locked in</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track422 - Locked in.mp3&title=Locked in" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Locked in</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#19</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Woman talking unhurriedly</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track310 - Woman talking unhurriedly.mp3&title=Woman talking unhurriedly" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Woman talking unhurriedly</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#18</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">A snake bites his finger</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track418 - A snake bites his finger.mp3&title=A snake bites his finger" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>A snake bites his finger</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#17</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Crossed Wires</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track317 - Crossed Wires.mp3&title=Crossed Wires" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Crossed Wires</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#16</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Grandson needs help</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track309 - Grandson needs help.mp3&title=Grandson needs help" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Grandson needs help</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#15</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">A Test To Check Whether 911 is Working</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track222 - A Test To Check Whether 911 is Working.mp3&title=A Test To Check Whether 911 is Working" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>A Test To Check Whether 911 is Working</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#14</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Dying</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track211 - Dying.mp3&title=Dying" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Dying</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#13</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">People walking in the store</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track204 - People walking in the store.mp3&title=People walking in the store" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>People walking in the store</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#12</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Two guys and a blanket</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track412 - Two guys and a blanket.mp3&title=Two guys and a blanket" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Two guys and a blanket</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#11</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Homeless hanky-panky</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track404 - Homeless hanky-panky.mp3&title=Homeless hanky-panky" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Homeless hanky-panky</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#10</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Twisted tongue</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track203 - Twisted tongue.mp3&title=Twisted tongue" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Twisted tongue</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#9</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">What is the day today</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track216 - What is the day today.mp3&title=What is the day today" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>What is the day today</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#8</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Oh no!Help me!</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track329 - Oh no!Help me!.mp3&title=Oh no!Help me!" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Oh no!Help me!</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#7</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">These people are cooking</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track416 - These people are cooking.mp3&title=These people are cooking" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>These people are cooking</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#6</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Recording</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track313 - Recording.mp3&title=Recording" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Recording</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#5</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Yelling man</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track110 - Yelling man.mp3&title=Yelling man" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Yelling man</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#4</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Hysteria</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track215 - Hysteria.mp3&title=Hysteria" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Hysteria</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#3</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">People are bothering me</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track112 - People are bothering me.mp3&title=People are bothering me" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>People are bothering me</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#2</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">A big black cow</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track316 - A big black cow.mp3&title=A big black cow" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>A big black cow</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            <tr class="style2">
+        <!-- <td class='pformstrip' ><div align="left" class="style2">#1</div></td> -->
+        <td class='pformstrip' ><div align="left" class="style2">Somebody stole a blond woman</div></td>
+        <td class='pformstrip' ><div align="left" class="style2"><a href="play.php?filename=Track213 - Somebody stole a blond woman.mp3&title=Somebody stole a blond woman" target="_blank" onclick="return ot(this,'0')">Listen now</a></div></td>
+      </tr>
+      <!--<a href='' target=_blank class="style6"><B>Somebody stole a blond woman</B></a>-->
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right" valign="top"><img src="images/thinkblackline.gif" width="100%" height="1"></td>
+      </tr>
+            
+      <tr class="style2">
+        <td colspan=4 style='padding-left:0px' align="right"><span class="style9"><span class="pagelink">89 911 calls </span>&nbsp;<span class="pagelink"> Pages:</span>&nbsp;<span class="pagelinklast"><a href="index-0.html" title="Fisrt Page">&laquo;</a></span>&nbsp;<span class="pagelinklast"><a href="index-46.html" title="Previous Page">&lt;</a></span>&nbsp;<span class="pagelinklast"><a href="index-0.html" title="0">1</a></span>&nbsp;<span class="pagelinklast"><a href="index-23.html" title="23">2</a></span>&nbsp;<span class="pagelinklast"><a href="index-46.html" title="46">3</a></span>&nbsp;<span class="pagecurrent"><a href="index-69.html" title="69">4</a></span>&nbsp;</span></td>
+      </tr>
+    </table>    </td>
+  </tr>
+</table>
+

@@ -7,18 +7,14 @@
 ##########
 # INPUTS:
 #
-# >> audio_file_name_w_extension - the string showing what file to load in
-# >> audio_folder_path - path of audio file. If 'auto', guesses (./INPUT_audio) from running directory
-# >> transcription_directory path - where the transcripts are stored, guesses (./CACHE_transcriptions) from running directory
-# >> qVerbose - extra feedback in console? default = 0
-# >> str_dict_version - specify what version of dictionary to use. 'newest' by default
-#
-# *** Both of these inputs are provided by load_audio_from_filename.py
+# >> str_audio_filename - where is the long FLAC file stored. (theoretically doesn't have to be FLAC)
 #
 
 ###########
 # OUTPUTS:
-# >> eval_str - a single string containing the evaluation
+# >> num_segments - how many subfiles were created, ** starting with 1 **
+# >> audio_length_s - audio length in seconds
+
 
 ###########
 # CHANGELOG:
@@ -37,7 +33,9 @@ def chop_up_audio(str_audio_filename):
     import math
 
     audio_data = AudioSegment.from_file(str_audio_filename)
-    audio_length_ms = math.floor(audio_data.duration_seconds * 1000)
+    audio_length_s = audio_data.duration_seconds
+    audio_length_ms = math.floor(audio_length_s * 1000)
+
 
     bin_width_ms = 59 * 1000  # 59-second chunks
     start_times_ms = list(range(0, audio_length_ms, bin_width_ms))
@@ -63,4 +61,4 @@ def chop_up_audio(str_audio_filename):
         print('Output to: '+ this_slice_filename)
         print('Empirical duration (s) = ' + str(this_slice.duration_seconds))
 
-    return num_segments
+    return num_segments, audio_length_s

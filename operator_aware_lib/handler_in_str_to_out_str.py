@@ -60,7 +60,8 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
         return('Unknown file extension. Please upload mp3, wav, or flac files.')
 
     # Chop the audio into < 1 min pieces
-    num_segments = chop_up_audio(flac_full_audio_file_path)
+    num_segments, audio_length_s = chop_up_audio(flac_full_audio_file_path)
+    print(audio_length_s)
 
     # Init for loop
     net_categories = ''
