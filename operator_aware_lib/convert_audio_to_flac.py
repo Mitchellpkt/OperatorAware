@@ -1,3 +1,32 @@
+# convert_audio_to_flac.py
+# Loads the file and exports as FLAC
+#
+#
+# mitchellpkt@protonmail.com
+# github.com/mitchellpkt/operatoraware
+#
+##########
+# INPUTS:
+#
+# >> str_audio_filename - a string pointing to the file to be read
+#
+
+###########
+# OUTPUTS:
+# >> new_filename - path to the preprocessed file
+
+###########
+# CHANGELOG:
+#
+
+########
+# TO DO:
+# >> expand to formats beyond FLAC
+
+#############
+# EXAMPLE:
+#
+
 def convert_audio_to_flac(str_audio_filename):
     # !pip install pydub
     # !sudo apt-get install ffmpeg
@@ -13,13 +42,13 @@ def convert_audio_to_flac(str_audio_filename):
     # Read in the audio
     audio_data = AudioSegment.from_file(str_audio_filename)
 
-    # Export to the new format
-    new_filename = re.sub('(?i)' + re.escape(str_extension), lambda m: 'flac', str_audio_filename)
-
+    # Generate path for output file
     if str_extension == 'LAC':
-        new_filename = str_audio_filename[0:-4] + 'flac'
-        os.rename(str_audio_filename, new_filename)
+        new_filename = str_audio_filename[0:-4] + 'flac' # Make sure extension is lower case
+        os.rename(str_audio_filename, str_audio_filename+'.orig') # move the old file to avoid name conflict
     else:
-        audio_data.export(new_filename, format="flac")
+        new_filename = re.sub('(?i)' + re.escape(str_extension), lambda m: 'flac', str_audio_filename)
+
+    audio_data.export(new_filename, format="flac")
 
     return new_filename

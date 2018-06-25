@@ -54,7 +54,7 @@ def chop_up_audio(str_audio_filename):
         end_time = min((start_time + bin_width_ms, audio_length_ms))  # don't overrun the end
         this_slice = audio_data[start_time:end_time]
         this_slice_filename = str_audio_filename + '.' + str(num_segments)
-        this_slice.export(this_slice_filename, format="flac")
+        this_slice.export(this_slice_filename, format="flac",bitrate="8k", parameters=["-ac", "1"])
 
         print('*'*10)
         print('Subsegment #' + str(num_segments))

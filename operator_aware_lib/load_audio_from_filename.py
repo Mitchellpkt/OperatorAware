@@ -52,7 +52,7 @@ def load_audio_from_filename(str_audio_filename):
 
     audio_config = types.RecognitionConfig(
         encoding=enums.RecognitionConfig.AudioEncoding.FLAC,
-        sample_rate_hertz=8000,#16000
+        #sample_rate_hertz=8000,#16000
         language_code='en-US')
 
     return audio_data, audio_config
