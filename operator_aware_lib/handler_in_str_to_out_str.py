@@ -135,10 +135,29 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     print('*'*30)
     print('Net transcription:')
     print(net_transcription)
+
+    new_transcript_filename = 'transcript_' + master_name + '.txt'
+
     # Record the net transcription
-    transcription_filename = os.path.join(new_path,'transcript_' + master_name + '.txt')
+    transcription_filename = os.path.join(new_path,new_transcript_filename)
     with open(transcription_filename, 'w') as f_open:
         f_open.write(str(net_transcription))
+        f_open.close()
+
+    # Training data path
+    training_data_path = os.path.join(audio_folder_path, '..', '..', 'text_training_data') # is .. .. dangerous?? probably
+    if not os.path.isdir(training_data_path):
+        os.mkdir(training_data_path)
+
+    # Store transcription in the training folder
+    training_data_filename = os.path.join(training_data_path, new_transcript_filename)
+    with open(training_data_filename, 'w') as f_open:
+        f_open.write(str(net_transcription))
+        f_open.close()
+
+    # Make categories file
+    with open(training_data_filename+'.categories', 'w') as f_open:
+        f_open.write('Lorem,')
         f_open.close()
 
     return net_results_printout

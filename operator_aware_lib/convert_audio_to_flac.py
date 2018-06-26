@@ -1,6 +1,6 @@
 # convert_audio_to_flac.py
 # Loads the file and exports as FLAC
-#
+# Maybe even more importantly, it sets it to mono channel and a fixed bitrates
 #
 # mitchellpkt@protonmail.com
 # github.com/mitchellpkt/operatoraware
