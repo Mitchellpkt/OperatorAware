@@ -32,7 +32,6 @@
 #
 
 def transcribe_audio_cloud(audio_data, audio_config):
-
     from google.cloud import speech
     from google.cloud.speech import enums
     from google.cloud.speech import types
@@ -48,5 +47,6 @@ def transcribe_audio_cloud(audio_data, audio_config):
     transcription_str = ''
     for result in response.results:
         transcription_str += ' ' + format(result.alternatives[0].transcript)
+        confidence_metric = format(result.alternatives[0].confidence)
 
-    return transcription_str, response
+    return transcription_str, confidence_metric

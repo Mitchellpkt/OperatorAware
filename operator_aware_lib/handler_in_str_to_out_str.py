@@ -98,6 +98,7 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     net_categories = ''
     net_words = ''
     net_results_printout = ''
+    confidence_metric = list()
 
     # Loop over each audio segment
     for n in list(range(1, num_segments+1)):
@@ -116,7 +117,8 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
             use_transcript_directory = transcription_directory_path
 
         # Fetch the transcript
-        transcription_str = fetch_transcript(audio_data, audio_config, use_transcript_directory, qVerbose=qVerbose, force_fresh=0, do_not_save=0)
+        transcription_str, this_confidence_metric = fetch_transcript(audio_data, audio_config, use_transcript_directory, qVerbose=qVerbose, force_fresh=0, do_not_save=0)
+        confidence_metric.append(this_confidence_metric)
         net_transcription += ' /// ' + transcription_str
         print('Transcription for segment:')
         print(transcription_str)
@@ -144,6 +146,7 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     # Record the net transcription
     transcription_filename = os.path.join(new_path,new_transcript_filename)
     with open(transcription_filename, 'w') as f_open:
+        f_open.write(str(confidence_metric))
         f_open.write(str(net_transcription))
         f_open.close()
 
@@ -155,6 +158,7 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     # Store transcription in the training folder
     training_data_filename = os.path.join(training_data_path, new_transcript_filename)
     with open(training_data_filename, 'w') as f_open:
+        f_open.write(str(confidence_metric))
         f_open.write(str(net_transcription))
         f_open.close()
 
@@ -163,4 +167,4 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
         f_open.write('Lorem,')
         f_open.close()
 
-    return net_results_printout, audio_length_s
+    return net_results_printout, audio_length_s, confidence_metric

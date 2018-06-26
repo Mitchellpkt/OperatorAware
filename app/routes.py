@@ -24,6 +24,7 @@ def pentest():
 @app.route("/index", methods=["POST"])
 def indexpost():
     # Generate and create target path for audio file (uploads)
+    confidence_threshold = 0.6
     target = os.path.join(APP_ROOT, 'uploads/')
     if not os.path.isdir(target):
         os.mkdir(target)
@@ -59,28 +60,47 @@ def indexpost():
                 upload.save(destination)
                 print("Saved it to: ", destination)
 
-                results_printout, audio_length_s = handler_in_str_to_out_str(audio_file_name_w_extension=filename,
+                results_printout, audio_length_s, confidence_metric = handler_in_str_to_out_str(audio_file_name_w_extension=filename,
                                                              audio_folder_path=target,
                                                              transcription_directory_path='auto', qVerbose=1,
                                                              str_dict_version='newest')
 
+                min_conf = float(min(confidence_metric))
+                min_conf_prct_str = str(round(min_conf * 100))
+                print(type(min_conf))
+                print(type(confidence_threshold))
+                if min_conf < confidence_threshold:
+                    confidence_warning = 'Poor audio quality, transcription minimum confidence = ' + min_conf_prct_str + '%'
+                else:
+                    confidence_warning = 'Acceptable audio quality, transcription minimum confidence = ' + min_conf_prct_str + '%'
 
                 call_list.append({
                     'base_filename': str(upload.filename),
                     'net_results': results_printout,
-                    'call_duration': time.strftime('%H:%M:%S', time.gmtime(audio_length_s))
+                    'call_duration': time.strftime('%H:%M:%S', time.gmtime(audio_length_s)),
+                    'confidence_warning': confidence_warning
                 })
 
         else:
-            results_printout, audio_length_s = handler_in_str_to_out_str(audio_file_name_w_extension=what_to_load,
+            results_printout, audio_length_s, confidence_metric = handler_in_str_to_out_str(audio_file_name_w_extension=what_to_load,
                                                          audio_folder_path=os.path.join(target, '..',
                                                                                         'demo_audio_files'),
                                                          transcription_directory_path='auto', qVerbose=1,
                                                          str_dict_version='newest', demo_mode=1)
+            min_conf = float(min(confidence_metric))
+            min_conf_prct_str = str(round(min_conf * 100))
+            print(type(min_conf))
+            print(type(confidence_threshold))
+            if min_conf < confidence_threshold:
+                confidence_warning = 'Poor audio quality, transcription minimum confidence = ' + min_conf_prct_str + '%'
+            else:
+                confidence_warning = 'Acceptable audio quality, transcription minimum confidence = ' + min_conf_prct_str + '%'
+
             call_list.append({
                 'base_filename': str(what_to_load),
                 'net_results': results_printout,
-                'call_duration': time.strftime('%H:%M:%S',  time.gmtime(audio_length_s))
+                'call_duration': time.strftime('%H:%M:%S',  time.gmtime(audio_length_s)),
+                'confidence_warning': confidence_warning
             })
 
         # Return the result

@@ -34,8 +34,7 @@
 # EXAMPLE:
 #
 
-def fetch_transcript(audio_data, audio_config,transcript_directory,qVerbose=0,force_fresh=0,do_not_save=0):
-
+def fetch_transcript(audio_data, audio_config, transcript_directory, qVerbose=0, force_fresh=0, do_not_save=0):
     from .transcribe_audio_cloud import transcribe_audio_cloud
     import hashlib
     import os
@@ -55,12 +54,13 @@ def fetch_transcript(audio_data, audio_config,transcript_directory,qVerbose=0,fo
 
     if does_transcription_exist == False or force_fresh == 1:
 
-    # Detect speech in the audio file
-        transcription_str, response = transcribe_audio_cloud(audio_data, audio_config)
+        # Detect speech in the audio file
+        transcription_str, confidence_metric = transcribe_audio_cloud(audio_data, audio_config)
 
         if do_not_save != 1:
             # save transcription unless otherwise specified
             with open(transcription_filename, 'w') as f_open:
+                f_open.write(confidence_metric)
                 f_open.write(str(transcription_str))
                 f_open.close()
 
@@ -69,11 +69,12 @@ def fetch_transcript(audio_data, audio_config,transcript_directory,qVerbose=0,fo
             print('Fresh transcription stored in: ' + transcription_filename)
             print('Transcription:')
             print(transcription_str)
-    else:    
+    else:
         # Load in the transcript
 
         with open(transcription_filename, 'r') as f_open:
             transcription_str = f_open.read()
+            confidence_metric = transcription_str.split()[0]
 
         if qVerbose == 1:
             print('***************************')
@@ -81,4 +82,4 @@ def fetch_transcript(audio_data, audio_config,transcript_directory,qVerbose=0,fo
             print('Transcription:')
             print(transcription_str)
 
-    return transcription_str
+    return transcription_str, confidence_metric

@@ -2,7 +2,7 @@
 
 <HEAD>
 
-<TITLE>Operator Aware - Output</TITLE>
+    <TITLE>Operator Aware - Output</TITLE>
 
 </HEAD>
 
@@ -18,8 +18,11 @@
 <p><b>Analysis of {{ call.base_filename }}:</b><br>
     Duration: {{ call.call_duration}} <br><br>
 
-{{ call.net_results }}
-{% endfor %}
+    {{ call.net_results }}
+
+    <br>
+    {{ call.confidence_warning }}
+    {% endfor %}
 
 
 </BODY>
