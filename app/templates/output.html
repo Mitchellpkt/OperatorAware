@@ -2,61 +2,24 @@
 
 <HEAD>
 
-<TITLE>Operator Aware</TITLE>
+<TITLE>Operator Aware - Output</TITLE>
 
 </HEAD>
 
 <BODY BGCOLOR="FFFFFF">
 
-<CENTER>
-<IMG SRC="https://pride.physio/wp-content/uploads/2016/10/operator-865x655.jpg" ALIGN="TOP"> </CENTER>
 
-<H1>Operator Aware v 0.0.4</H1>
+<!--<CENTER><IMG SRC="https://pride.physio/wp-content/uploads/2016/10/operator-865x655.jpg" ALIGN="TOP"> </CENTER>-->
 
-GitHub at: <a target="_blank" href="http://github.com/mitchellpkt/OperatorAware">http://github.com/mitchellpkt/OperatorAware</a> <br>
 
-OperatorAware <a target="_blank" href="https://i.imgur.com/HWgL9C0.png">algorithm</a> and <a target="_blank" href="https://i.imgur.com/rjrclCe.png">supervisor interface mockup</a><br>
-
-Contact <a target="_blank" href="mailto:mitchellpkt@protonmail.com">mitchellpkt@protonmail.com</a> for questions or pen testing rules.<br>
-
+<h1>Operatoraware Analysis</h1>
 <hr>
-<form id="upload-form" action="{{ url_for('index') }}" method="POST" enctype="multipart/form-data">
-    <h2> 1a) Select a call: </h2>
-    <select name="dropdown_selection">
-        <option value="upload_call_option">Upload call(s), below</option>
-        <option value="murder_long.mp3">Demo Call 1</option>
-        <option value="80basset_fire_short.mp3">Demo Call 2</option>
-        <option value="granny_wants_a_beer.swf">Demo Call 3</option>
-    </select>
-    <br>
+{% for call in calls %}
+<p><b>Analysis of {{ call.base_filename }}:</b><br>
 
-    <h2> 1b) or upload call file(s) yourself:</h2>
-    <input id="file-picker" type="file" name="file" multiple>
-    <div id="msg"></div>
-    <br>
-     <h2> 2) Enter supervisor password:<br>
-    <input id="password" type="password" name="password" maxlength="60">
-    <br>
-   <h2> 3) Press to submit:</h2> <input type="submit" value="OperatorAware Analyze" id="upload-button">
-</form>
+{{ call.net_results }}
+{% endfor %}
 
-<!--OLD CODE FOR SELECTING FROM EXTANT FILES-->
-<!--<H2>Which call to review?</H2>
-
-<form name="Item_1" method='POST'>
-    <select name="Item_1">
-        <option value="murder_short.flac">Call 1</option>
-        <option value="fire_short.flac">Call 2</option>
-    </select>
-    <button type="submit">Analyze!</button>
-</form>
-<HR>-->
-
-<!--
-<img src="https://i.imgur.com/N3pl4nM.png" alt="algo"><br>
-
-<img src="https://i.imgur.com/rjrclCe.png" alt="interface"><br>
--->
 
 </BODY>
 

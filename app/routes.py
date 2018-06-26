@@ -12,31 +12,33 @@ APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 def index():
     return render_template('index.html')
 
+
 @app.route("/pentest.html")
 @app.route("/pentest")
 def pentest():
     return render_template('pentest.html')
 
+
 @app.route("/", methods=["POST"])
 @app.route("/index", methods=["POST"])
 def indexpost():
-
     # Generate and create target path for audio file (uploads)
-    target = os.path.join(APP_ROOT,'uploads/')
+    target = os.path.join(APP_ROOT, 'uploads/')
     if not os.path.isdir(target):
         os.mkdir(target)
     else:
-        print("Coludn't create upload directory: {}".format(target))
+        print("Couldn't create upload directory: {}".format(target))
 
     # Check the password
     pswd_from_user = request.form['password']
     authenticated = check_password(pswd_from_user, password_file_path='SupervisorPassword.txt')
 
-    if authenticated==0:
+    if authenticated == 0:
         return render_template('wrong_password.html')
     else:
         # Continue ahead
-        net_results_printout = '' # init
+        net_results_printout = ''  # init
+        call_list = list()
 
         # Check which option selected from dropdown
         what_to_load = request.form['dropdown_selection']
@@ -56,26 +58,27 @@ def indexpost():
                 upload.save(destination)
                 print("Saved it to: ", destination)
 
-                results_printout = handler_in_str_to_out_str(audio_file_name_w_extension=filename, audio_folder_path=target,
-                                          transcription_directory_path='auto', qVerbose=1, str_dict_version='newest')
+                results_printout = handler_in_str_to_out_str(audio_file_name_w_extension=filename,
+                                                             audio_folder_path=target,
+                                                             transcription_directory_path='auto', qVerbose=1,
+                                                             str_dict_version='newest')
 
-                net_results_printout += '****************************<br>'
-                net_results_printout += 'In file ' + filename + ':<br>'
-                if results_printout == "":
-                    results_printout += "No emergency detected"
-                net_results_printout += results_printout + "<br>[Click here to play call]<br><br>"
+                call_list.append({
+                    'base_filename': str(upload.filename),
+                    'net_results': results_printout
+                })
 
         else:
-            results_printout = handler_in_str_to_out_str(audio_file_name_w_extension=what_to_load, audio_folder_path=os.path.join(target,'..','demo_audio_files'),
+            results_printout = handler_in_str_to_out_str(audio_file_name_w_extension=what_to_load,
+                                                         audio_folder_path=os.path.join(target, '..',
+                                                                                        'demo_audio_files'),
                                                          transcription_directory_path='auto', qVerbose=1,
-                                                         str_dict_version='newest',demo_mode=1)
-
-            net_results_printout += '****************************<br>'
-            net_results_printout += 'In file ' + what_to_load + ':<br>'
-            if results_printout == "":
-                results_printout += "No emergency detected"
-            net_results_printout += results_printout+ "<br>[Click here to play call]<br><br>"
+                                                         str_dict_version='newest', demo_mode=1)
+            call_list.append({
+                'base_filename': str(what_to_load),
+                'net_results': results_printout
+            })
 
         # Return the result
         # Change this to an output template
-        return(net_results_printout)
+        return render_template('output.html', calls=call_list)
