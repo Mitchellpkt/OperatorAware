@@ -67,9 +67,9 @@ def indexpost():
                 net_results_printout += results_printout + "<br>[Click here to play call]<br><br>"
 
         else:
-            results_printout = handler_in_str_to_out_str(audio_file_name_w_extension=what_to_load+'.FLAC', audio_folder_path=target,
+            results_printout = handler_in_str_to_out_str(audio_file_name_w_extension=what_to_load, audio_folder_path=os.path.join(target,'..','demo_audio_files'),
                                                          transcription_directory_path='auto', qVerbose=1,
-                                                         str_dict_version='newest')
+                                                         str_dict_version='newest',demo_mode=1)
 
             net_results_printout += '****************************<br>'
             net_results_printout += 'In file ' + what_to_load + ':<br>'

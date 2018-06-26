@@ -32,7 +32,7 @@
 # EXAMPLE:
 #
 
-def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='auto',transcription_directory_path='auto',qVerbose=1,str_dict_version='newest'):
+def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='auto',transcription_directory_path='auto',qVerbose=1,str_dict_version='newest',demo_mode=0):
     # Load in the relevant modules,
     import os
     import hashlib
@@ -69,7 +69,10 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     print(master_name)
 
     # Make a subdirectory for this task
-    new_path = os.path.join(audio_folder_path,master_name)
+    if demo_mode == 0:
+        new_path = os.path.join(audio_folder_path,master_name)
+    else:
+        new_path = audio_folder_path
     if not os.path.isdir(new_path):
         os.mkdir(new_path)
 

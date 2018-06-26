@@ -43,7 +43,7 @@ def evaluate_string(transcription_str, danger_words, danger_names):
         this_category = danger_words[danger_cat]
         # loop over keywords within category
         for keyword in this_category:
-            if keyword in transcription_str:
+            if keyword in transcription_str.lower():
                 is_urgent = 1 # if any appear, set is_urgent to 1
                 keyword_obs = 'Possible ' + danger_names[danger_cat] + ': ' + keyword
                 results_printout += '<br> ' + keyword_obs
