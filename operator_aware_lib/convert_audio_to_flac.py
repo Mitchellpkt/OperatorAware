@@ -47,7 +47,7 @@ def convert_audio_to_flac(str_audio_filename):
         new_filename = str_audio_filename[0:-4] + 'flac' # Make sure extension is lower case
         os.rename(str_audio_filename, str_audio_filename+'.orig') # move the old file to avoid name conflict
     else:
-        new_filename = re.sub('(?i)' + re.escape(str_extension), lambda m: 'flac', str_audio_filename)
+        new_filename = re.sub('(?i)' + re.escape('.'+str_extension), lambda m: '.flac', str_audio_filename)
 
     audio_data.export(new_filename, format="flac")
 

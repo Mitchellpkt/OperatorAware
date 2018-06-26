@@ -35,6 +35,10 @@
 def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='auto',transcription_directory_path='auto',qVerbose=1,str_dict_version='newest'):
     # Load in the relevant modules,
     import os
+    import hashlib
+    import re
+
+    # From OperatorAware
     from .load_audio_from_filename import load_audio_from_filename
     from .evaluate_string import evaluate_string
     from .return_dictionary import return_dictionary
@@ -42,7 +46,7 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     from .convert_audio_to_flac import convert_audio_to_flac
     from .chop_up_audio import chop_up_audio
 
-    # Form filename
+    # Form input filename
     if audio_folder_path == 'auto':
         # guess at file path from the current directory
         full_audio_file_path = os.path.join(
@@ -53,10 +57,31 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
         # Construct from input path
         full_audio_file_path = os.path.join(audio_folder_path,audio_file_name_w_extension)
 
-    master_name = os.path.basename(audio_file_name_w_extension)
+    # What do we call this project?
+    audio_data, audio_config_junk = load_audio_from_filename(full_audio_file_path)
+    hash_object = hashlib.sha256(audio_data.SerializePartialToString())
+    hex_dig = hash_object.hexdigest()
+    base_name = os.path.basename(full_audio_file_path)
+    hash_tag = hex_dig[0:4]
+    master_name_raw = hash_tag + '_' + base_name
+    master_name = master_name_raw.replace('.','_')
+    print('*********Master Name**********')
+    print(master_name)
 
+    # Make a subdirectory for this task
+    new_path = os.path.join(audio_folder_path,master_name)
+    if not os.path.isdir(new_path):
+        os.mkdir(new_path)
+
+    print('New path:' + new_path)
+
+    new_full_audio_file_path = os.path.join(new_path,audio_file_name_w_extension)
+    print('New filename/location: ' + new_full_audio_file_path)
+    os.rename(full_audio_file_path,new_full_audio_file_path)
+    print('(renamed)')
     # Convert the audio to flask
-    flac_full_audio_file_path = convert_audio_to_flac(full_audio_file_path)
+    flac_full_audio_file_path = convert_audio_to_flac(new_full_audio_file_path)
+    print('new FLAC file at:' + flac_full_audio_file_path)
 
     if flac_full_audio_file_path == "ERROR_UNKNOWN_EXTENSION":
         return('Unknown file extension. Please upload mp3, wav, or flac files.')
@@ -66,6 +91,7 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     print(audio_length_s)
 
     # Init for loop
+    net_transcription = ''
     net_categories = ''
     net_words = ''
     net_results_printout = ''
@@ -88,6 +114,7 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
 
         # Fetch the transcript
         transcription_str = fetch_transcript(audio_data, audio_config, use_transcript_directory, qVerbose=qVerbose, force_fresh=0, do_not_save=0)
+        net_transcription += ' /// ' + transcription_str
         print('Transcription for segment:')
         print(transcription_str)
 
@@ -102,5 +129,16 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
         net_categories += category_list
         net_words += word_list
         net_results_printout += results_printout
+
+        os.remove(segment_filename) # cleanup
+
+    print('*'*30)
+    print('Net transcription:')
+    print(net_transcription)
+    # Record the net transcription
+    transcription_filename = os.path.join(new_path,'transcript_' + master_name + '.txt')
+    with open(transcription_filename, 'w') as f_open:
+        f_open.write(str(net_transcription))
+        f_open.close()
 
     return net_results_printout
