@@ -16,6 +16,7 @@
 <hr>
 {% for call in calls %}
 <p><b>Analysis of {{ call.base_filename }}:</b><br>
+    Duration: {{ call.call_duration}} <br><br>
 
 {{ call.net_results }}
 {% endfor %}

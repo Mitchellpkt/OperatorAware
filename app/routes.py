@@ -2,6 +2,7 @@ from flask import render_template, request
 from app import app
 from operator_aware_lib.handler_in_str_to_out_str import handler_in_str_to_out_str
 from operator_aware_lib.check_passphrase import check_passphrase
+import time
 import os
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -58,25 +59,28 @@ def indexpost():
                 upload.save(destination)
                 print("Saved it to: ", destination)
 
-                results_printout = handler_in_str_to_out_str(audio_file_name_w_extension=filename,
+                results_printout, audio_length_s = handler_in_str_to_out_str(audio_file_name_w_extension=filename,
                                                              audio_folder_path=target,
                                                              transcription_directory_path='auto', qVerbose=1,
                                                              str_dict_version='newest')
 
+
                 call_list.append({
                     'base_filename': str(upload.filename),
-                    'net_results': results_printout
+                    'net_results': results_printout,
+                    'call_duration': time.strftime('%H:%M:%S', time.gmtime(audio_length_s))
                 })
 
         else:
-            results_printout = handler_in_str_to_out_str(audio_file_name_w_extension=what_to_load,
+            results_printout, audio_length_s = handler_in_str_to_out_str(audio_file_name_w_extension=what_to_load,
                                                          audio_folder_path=os.path.join(target, '..',
                                                                                         'demo_audio_files'),
                                                          transcription_directory_path='auto', qVerbose=1,
                                                          str_dict_version='newest', demo_mode=1)
             call_list.append({
                 'base_filename': str(what_to_load),
-                'net_results': results_printout
+                'net_results': results_printout,
+                'call_duration': time.strftime('%H:%M:%S',  time.gmtime(audio_length_s))
             })
 
         # Return the result
