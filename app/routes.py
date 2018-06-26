@@ -33,8 +33,7 @@ def indexpost():
     authenticated = check_password(pswd_from_user, password_file_path='SupervisorPassword.txt')
 
     if authenticated==0:
-        print("FAILED AUTHORIZATION ATTEMPT - PASSWORD:" + pswd_from_user)
-        return("WRONG SUPERVISOR PASWORD. <br>Contact mitchellpkt to request access")
+        return render_template('wrong_password.html')
     else:
         # Continue ahead
         net_results_printout = '' # init
