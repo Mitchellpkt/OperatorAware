@@ -1,7 +1,7 @@
 from flask import render_template, request
 from app import app
 from operator_aware_lib.handler_in_str_to_out_str import handler_in_str_to_out_str
-from operator_aware_lib.check_password import check_password
+from operator_aware_lib.check_passphrase import check_passphrase
 import os
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -31,10 +31,10 @@ def indexpost():
 
     # Check the password
     pswd_from_user = request.form['password']
-    authenticated = check_password(pswd_from_user, password_file_path='SupervisorPassword.txt')
+    authenticated = check_passphrase(pswd_from_user, passphrase_file_path='supervisor_passphrases.keys')
 
     if authenticated == 0:
-        return render_template('wrong_password.html')
+        return render_template('wrong_passphrase.html')
     else:
         # Continue ahead
         net_results_printout = ''  # init

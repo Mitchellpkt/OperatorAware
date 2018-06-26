@@ -63,7 +63,7 @@ cp IgnoreThese.gitignore .gitignore
 #####################
 # Create supervisor password
 echo Setting default password: "DefaultPassword"
-echo DefaultPassword>SupervisorPassword.txt
+echo defaultpassphrase>supervisor_passphrase.keys
 
 #####################
 # Perhaps need ffmpeg?
