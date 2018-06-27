@@ -60,7 +60,7 @@ def indexpost(confidence_threshold=0.6):
                 upload.save(destination)
                 print("Saved it to: ", destination)
 
-                results_printout, audio_length_s, confidence_metric, words_list, categories_list = handler_in_str_to_out_str(
+                results_printout, audio_length_s, confidence_metric, words_list, categories_list, is_urgent = handler_in_str_to_out_str(
                     audio_file_name_w_extension=filename,
                     audio_folder_path=os.path.join(target),
                     transcription_directory_path='auto', qVerbose=1,
@@ -82,17 +82,20 @@ def indexpost(confidence_threshold=0.6):
                     'confidence_warning': confidence_warning,
                     'audio_file_path': filename,
                     'words_list': words_list,
-                    'categories_list': categories_list
+                    'categories_list': categories_list,
+                    'is_urgent': is_urgent
                 })
 
         else:
-            results_printout, audio_length_s, confidence_metric, words_list, categories_list = handler_in_str_to_out_str(
+            results_printout, audio_length_s, confidence_metric, words_list, categories_list, is_urgent = handler_in_str_to_out_str(
                 audio_file_name_w_extension=what_to_load,
                 audio_folder_path=os.path.join(target, '..',
                                                'demo_audio_files'),
                 transcription_directory_path='auto', qVerbose=1,
                 str_dict_version='newest', demo_mode=1)
 
+            min_conf = float(min(confidence_metric))
+            min_conf_prct_str = str(round(min_conf * 100))
             print('min_conf is type: ' + str(type(min_conf)))
             print('confidence_threshold is type: ' + str(type(confidence_threshold)))
             print(type(min_conf))
@@ -109,7 +112,8 @@ def indexpost(confidence_threshold=0.6):
                 'confidence_warning': confidence_warning,
                 'audio_file_path': what_to_load,
                 'words_list': words_list,
-                'categories_list': categories_list
+                'categories_list': categories_list,
+                'is_urgent': is_urgent
             })
 
         # Return the result

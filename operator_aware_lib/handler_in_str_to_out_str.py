@@ -99,6 +99,7 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     net_words = list()
     net_results_printout = ''
     confidence_metric = list()
+    net_is_urgent = 0
 
     # Loop over each audio segment
     for n in list(range(1, num_segments+1)):
@@ -130,7 +131,7 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
         is_urgent, category_list, word_list, results_printout = evaluate_string(transcription_str, danger_words, danger_names)
         print('Danger words:')
         print(danger_words)
-
+        net_is_urgent += is_urgent
         net_categories.append(category_list)
         net_words.append(word_list)
         net_results_printout += results_printout
@@ -174,4 +175,4 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     net_categories = list(set(list(chain.from_iterable(net_categories))))
     net_words = list(set(list(chain.from_iterable(net_words))))
 
-    return net_results_printout, audio_length_s, confidence_metric, net_words, net_categories
+    return net_results_printout, audio_length_s, confidence_metric, net_words, net_categories, net_is_urgent
