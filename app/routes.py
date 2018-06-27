@@ -22,7 +22,7 @@ def pentest():
 
 @app.route("/", methods=["POST"])
 @app.route("/index", methods=["POST"])
-def indexpost(confidence_threshold = 0.6):
+def indexpost(confidence_threshold=0.6):
     # Generate and create target path for audio file (uploads)
 
     target = os.path.join(APP_ROOT, 'uploads/')
@@ -68,8 +68,8 @@ def indexpost(confidence_threshold = 0.6):
 
                 min_conf = float(min(confidence_metric))
                 min_conf_prct_str = str(round(min_conf * 100))
-                print(type(min_conf))
-                print(type(confidence_threshold))
+                print('min_conf is type: ' + str(type(min_conf)))
+                print('confidence_threshold is type: ' + str(type(confidence_threshold)))
                 if min_conf < confidence_threshold:
                     confidence_warning = ' [Warning: low transcription confidence: ' + min_conf_prct_str + '%]'
                 else:
@@ -92,8 +92,9 @@ def indexpost(confidence_threshold = 0.6):
                                                'demo_audio_files'),
                 transcription_directory_path='auto', qVerbose=1,
                 str_dict_version='newest', demo_mode=1)
-            min_conf = float(min(confidence_metric))
-            min_conf_prct_str = str(round(min_conf * 100))
+
+            print('min_conf is type: ' + str(type(min_conf)))
+            print('confidence_threshold is type: ' + str(type(confidence_threshold)))
             print(type(min_conf))
             print(type(confidence_threshold))
             if min_conf < confidence_threshold:
