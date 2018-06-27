@@ -24,7 +24,7 @@ def pentest():
 @app.route("/index", methods=["POST"])
 def indexpost(confidence_threshold = 0.6):
     # Generate and create target path for audio file (uploads)
-    
+
     target = os.path.join(APP_ROOT, 'uploads/')
     if not os.path.isdir(target):
         os.mkdir(target)
