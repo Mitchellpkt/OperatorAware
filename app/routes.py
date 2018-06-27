@@ -42,10 +42,11 @@ def indexpost(confidence_threshold=0.6):
         net_results_printout = ''  # init
         call_list = list()
 
-        # Check which option selected from dropdown
-        what_to_load = request.form['dropdown_selection']
+        # # Check which option selected from dropdown
+        # what_to_load = request.form['dropdown_selection']
+        # if what_to_load == 'upload_call_option':
 
-        if what_to_load == 'upload_call_option':
+        if 1==1:
             # LOOP OVER UPLOADED FILES
             print(request.files.getlist("file"))
             for upload in request.files.getlist("file"):
