@@ -37,22 +37,23 @@
 <p>Analysis of <b>{{ call.base_filename }}:</b><br>
     Duration: {{ call.call_duration}} {{ call.confidence_warning }}<br><br>
 
-    The call may contain these situations: <font color="red"> {{call.categories_list}} </font><br>
-
-    based on the keywords <font color="blue"> {{call.words_list}} </font><br>
-
-    Urgency count: {{ call.is_urgent }}
+    <!--Urgency count: {{ call.is_urgent }}-->
 
     {% if call.is_urgent %}
-    IS URGENT!!
+
+    The call may contain these situations: <font color="red"> {{call.categories_list}} </font><br>
+
+    based on the keywords <font color="blue"> {{call.words_list}} </font><br><br>
+
+    <img src="https://i.imgur.com/lV7Nr3Y.png">
+
+    {% else %}
+<h2><font color="green">No emergency detected</font></h2>
+    </br>
+    Listen to call:
     {% endif %}
 
-    <!--    # Raw output
-        Raw output: <br>
-        {{ call.net_results }}-->
-
     <br>
-    Listen to call:<br>
     <audio controls>
         <source src="{{ call.audio_file_path }}" type="audio/mpeg">
         Your browser does not support the audio element.
