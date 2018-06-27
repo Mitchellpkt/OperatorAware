@@ -45,6 +45,7 @@ def transcribe_audio_cloud(audio_data, audio_config):
     # response = client.long_running_recognize(audio_config, audio_data)
 
     transcription_str = ''
+    confidence_metric = 0
     for result in response.results:
         transcription_str += ' ' + format(result.alternatives[0].transcript)
         confidence_metric = format(result.alternatives[0].confidence)
