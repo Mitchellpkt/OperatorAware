@@ -70,15 +70,16 @@ def indexpost():
                 print(type(min_conf))
                 print(type(confidence_threshold))
                 if min_conf < confidence_threshold:
-                    confidence_warning = 'Poor audio quality, transcription minimum confidence = ' + min_conf_prct_str + '%'
+                    confidence_warning = ' [Warning: low transcription confidence: ' + min_conf_prct_str + '%]'
                 else:
-                    confidence_warning = 'Acceptable audio quality, transcription minimum confidence = ' + min_conf_prct_str + '%'
+                    confidence_warning = ''# Acceptable audio quality, transcription minimum confidence = ' + min_conf_prct_str + '%'
 
                 call_list.append({
                     'base_filename': str(upload.filename),
                     'net_results': results_printout,
                     'call_duration': time.strftime('%H:%M:%S', time.gmtime(audio_length_s)),
-                    'confidence_warning': confidence_warning
+                    'confidence_warning': confidence_warning,
+                    'audio_file_path': filename
                 })
 
         else:
@@ -92,15 +93,16 @@ def indexpost():
             print(type(min_conf))
             print(type(confidence_threshold))
             if min_conf < confidence_threshold:
-                confidence_warning = 'Poor audio quality, transcription minimum confidence = ' + min_conf_prct_str + '%'
+                confidence_warning = ' [Warning: low transcription confidence: ' + min_conf_prct_str + '%]'
             else:
-                confidence_warning = 'Acceptable audio quality, transcription minimum confidence = ' + min_conf_prct_str + '%'
+                confidence_warning = ''  # Acceptable audio quality, transcription minimum confidence = ' + min_conf_prct_str + '%'
 
             call_list.append({
                 'base_filename': str(what_to_load),
                 'net_results': results_printout,
                 'call_duration': time.strftime('%H:%M:%S',  time.gmtime(audio_length_s)),
-                'confidence_warning': confidence_warning
+                'confidence_warning': confidence_warning,
+                'audio_file_path': what_to_load
             })
 
         # Return the result
