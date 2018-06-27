@@ -44,9 +44,9 @@ def return_dictionary(str_dict_version='newest'):
             'medicalWords': ['heart', 'stroke', 'breathing', 'unconscious', 'collapsed', 'diabetic', 'ambulance',
                              'doctor', 'hospital', 'blood', 'CPR'],
             'vehicleWords': ['crash', 'accident', 'airbag'],
-            'domesticWords': ['domestic', 'abuse', 'fight', 'argument', 'arguing', 'relationship'],
+            'domesticWords': ['domestic', 'abuse', 'fight', 'argument', 'arguing', 'relationship','yelling','yell'],
             'fireWords': ['fire', 'fires', 'burn', 'burned', 'burning', 'arson', 'flame', 'flames'],
-            'miscWords': ['violent', 'suicidal', 'suicide', 'drunk', 'trapped', 'missing'],
+            'miscWords': ['violent', 'suicidal', 'suicide', 'drunk', 'trapped', 'missing','rob','robbed','stole','stolen'],
             'drugWords': ['alcohol', 'beer', 'wine', 'liquor', 'drink', 'drinking', 'drunk', 'belligerent', 'marijuana',
                           'weed', 'pot', 'meth', 'herion', 'crack', 'cocaine'],
             'benignWords': ['butt', 'wrong number']}
