@@ -37,12 +37,18 @@
 <p>Analysis of <b>{{ call.base_filename }}:</b><br>
     Duration: {{ call.call_duration}} {{ call.confidence_warning }}<br><br>
 
-    <font color="red"> {{ call.net_results }} </font>
+    The call may contain these situations: <font color="red"> {{call._categories_list}} </font><br>
+
+    based on the keywords <font color="red"> {{call.words_list}} </font><br>
+
+    # Raw output
+    Raw output: <br>
+    {{ call.net_results }}
 
     <br>
     Listen to call:<br>
     <audio controls>
-        <source src="{{ call.audio_file_path }}" type="audio/flac">
+        <source src="{{ call.audio_file_path }}" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
     {% endfor %}

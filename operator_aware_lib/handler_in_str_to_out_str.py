@@ -95,8 +95,8 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
 
     # Init for loop
     net_transcription = ''
-    net_categories = ''
-    net_words = ''
+    net_categories = list()
+    net_words = list()
     net_results_printout = ''
     confidence_metric = list()
 
@@ -131,8 +131,8 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
         print('Danger words:')
         print(danger_words)
 
-        net_categories += category_list
-        net_words += word_list
+        net_categories.append(category_list[:])
+        net_words.append(word_list[:])
         net_results_printout += results_printout
 
         os.remove(segment_filename) # cleanup
@@ -167,4 +167,4 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
         f_open.write('Lorem,')
         f_open.close()
 
-    return net_results_printout, audio_length_s, confidence_metric
+    return net_results_printout, audio_length_s, confidence_metric, net_words, net_categories
