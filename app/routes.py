@@ -61,9 +61,8 @@ def indexpost():
                 print("Saved it to: ", destination)
 
                 results_printout, audio_length_s, confidence_metric, words_list, categories_list = handler_in_str_to_out_str(
-                    audio_file_name_w_extension=what_to_load,
-                    audio_folder_path=os.path.join(target, '..',
-                                                   'demo_audio_files'),
+                    audio_file_name_w_extension=filename,
+                    audio_folder_path=os.path.join(target),
                     transcription_directory_path='auto', qVerbose=1,
                     str_dict_version='newest', demo_mode=1)
 

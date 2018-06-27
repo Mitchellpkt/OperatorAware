@@ -131,8 +131,8 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
         print('Danger words:')
         print(danger_words)
 
-        net_categories.append(category_list[:])
-        net_words.append(word_list[:])
+        net_categories.append(category_list)
+        net_words.append(word_list)
         net_results_printout += results_printout
 
         os.remove(segment_filename) # cleanup
@@ -166,5 +166,10 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     with open(training_data_filename+'.categories', 'w') as f_open:
         f_open.write('Lorem,')
         f_open.close()
+
+    from itertools import chain
+
+    net_categories = list(set(list(chain.from_iterable(net_categories))))
+    net_words = list(set(list(chain.from_iterable(net_words))))
 
     return net_results_printout, audio_length_s, confidence_metric, net_words, net_categories

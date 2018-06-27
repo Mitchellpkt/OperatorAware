@@ -37,13 +37,13 @@
 <p>Analysis of <b>{{ call.base_filename }}:</b><br>
     Duration: {{ call.call_duration}} {{ call.confidence_warning }}<br><br>
 
-    The call may contain these situations: <font color="red"> {{call._categories_list}} </font><br>
+    The call may contain these situations: <font color="red"> {{call.categories_list}} </font><br>
 
-    based on the keywords <font color="red"> {{call.words_list}} </font><br>
+    based on the keywords <font color="blue"> {{call.words_list}} </font><br>
 
-    # Raw output
+<!--    # Raw output
     Raw output: <br>
-    {{ call.net_results }}
+    {{ call.net_results }}-->
 
     <br>
     Listen to call:<br>
