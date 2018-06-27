@@ -60,7 +60,7 @@ def fetch_transcript(audio_data, audio_config, transcript_directory, qVerbose=0,
         if do_not_save != 1:
             # save transcription unless otherwise specified
             with open(transcription_filename, 'w') as f_open:
-                f_open.write(str(confidence_metric))
+                f_open.write(str(confidence_metric)+'\n')
                 f_open.write(str(transcription_str))
                 f_open.close()
 

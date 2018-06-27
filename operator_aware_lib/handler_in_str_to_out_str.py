@@ -141,12 +141,14 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     print('Net transcription:')
     print(net_transcription)
 
-    new_transcript_filename = 'transcript_' + master_name + '.txt'
+    new_transcript_filename_pre1 = base_name + "_" + hash_tag + '_transcript'
+    new_transcript_filename_pre2 = new_transcript_filename_pre1.replace('.','_')
+    new_transcript_filename = new_transcript_filename_pre2+'.txt'
 
     # Record the net transcription
     transcription_filename = os.path.join(new_path,new_transcript_filename)
     with open(transcription_filename, 'w') as f_open:
-        f_open.write(str(confidence_metric))
+        f_open.write(str(confidence_metric)+'\n')
         f_open.write(str(net_transcription))
         f_open.close()
 
@@ -158,7 +160,7 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     # Store transcription in the training folder
     training_data_filename = os.path.join(training_data_path, new_transcript_filename)
     with open(training_data_filename, 'w') as f_open:
-        f_open.write(str(confidence_metric))
+        f_open.write(str(confidence_metric)+'\n')
         f_open.write(str(net_transcription))
         f_open.close()
 
