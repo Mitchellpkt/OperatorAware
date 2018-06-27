@@ -41,10 +41,15 @@
 
     based on the keywords <font color="blue"> {{call.words_list}} </font><br>
 
-    Urgency (0/1): {{ call.is_urgent }}
-<!--    # Raw output
-    Raw output: <br>
-    {{ call.net_results }}-->
+    Urgency count: {{ call.is_urgent }}
+
+    {% if call.is_urgent %}
+    IS URGENT!!
+    {% endif %}
+
+    <!--    # Raw output
+        Raw output: <br>
+        {{ call.net_results }}-->
 
     <br>
     Listen to call:<br>
