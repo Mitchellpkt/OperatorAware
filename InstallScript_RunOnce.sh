@@ -18,6 +18,7 @@ sudo apt-get install python3-pip
 wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
 chmod +777 Anaconda3-5.2.0-Linux-x86_64.sh
 bash Anaconda3-5.2.0-Linux-x86_64.sh
+rm Anaconda3-5.2.0-Linux-x86_64.sh
 ## go through the install
 cd ~/anaconda3/bin
 ./conda update anaconda # may need to adjust the path
@@ -26,7 +27,7 @@ echo ... learned hard way: append not replace. *cough*
 echo you may be able to skip this. 
 ## Export path if needed
 # e.g. export path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pwn_me_user/anaconda3/bin"
-conda create -n insight python=3
+./conda create -n insight python=3 # I added ./ more recently
 source activate insight
 conda install numpy scipy pandas matplotlib flask scikit-learn jupyter
 
@@ -38,10 +39,10 @@ conda install numpy scipy pandas matplotlib flask scikit-learn jupyter
 #####################
 # Install gcloud, etc
 echo gcloud stuff
-pip3 install --upgrade google-cloud #?
+#pip3 install --upgrade google-cloud #?
 pip3 install --upgrade google-cloud-speech
-pip3 install --upgrade gcloud
-pip3 install --upgrade google-api-python-client
+#pip3 install --upgrade gcloud
+#pip3 install --upgrade google-api-python-client
 
 #####################
 # Install net-tools 
@@ -62,8 +63,8 @@ cp IgnoreThese.gitignore .gitignore
 
 #####################
 # Create supervisor password
-echo Setting default password: "DefaultPassword"
-echo defaultpassphrase>supervisor_passphrase.keys
+echo Setting default passphrase: "default_passphrase"
+echo default_passphrase>supervisor_passphrases.keys
 
 #####################
 # Perhaps need ffmpeg?
