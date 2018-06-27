@@ -39,10 +39,11 @@ conda install numpy scipy pandas matplotlib flask scikit-learn jupyter
 #####################
 # Install gcloud, etc
 echo gcloud stuff
-#pip3 install --upgrade google-cloud #?
 pip3 install --upgrade google-cloud-speech
-#pip3 install --upgrade gcloud
-#pip3 install --upgrade google-api-python-client
+#pip3 install --upgrade gcloud # IF YOU RUN THIS, IT WILL PROBABLY BREAK
+#pip3 install --upgrade google-api-python-client # IF YOU RUN THIS, IT WILL PROBABLY BREAK
+#pip3 install --upgrade google-cloud # IF YOU RUN THIS, IT WILL PROBABLY BREAK
+
 
 #####################
 # Install net-tools 
