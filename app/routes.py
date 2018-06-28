@@ -12,7 +12,6 @@ def pentest():
     return render_template('pentest.html')
 
 @app.route('/')
-@app.route('/index')
 def index():
     return render_template('index.html')
 
