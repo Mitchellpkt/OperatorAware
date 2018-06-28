@@ -47,17 +47,19 @@ def indexpost(confidence_threshold=0.6):
         for upload in request.files.getlist("file"):
             print(upload)
 
-            filename = upload.filename
-            print("{} is the filename".format(filename))
+            filename_str = upload.filename
+            print("{} is the filename".format(filename_str))
 
-            destination = "/".join([target, filename])
-            print("Accepted incoming file: ", filename)
+            destination = "/".join([target, filename_str])
+            print("Accepted incoming file: ", filename_str)
 
             upload.save(destination)
             print("Saved it to: ", destination)
 
             filename_list.append(destination)
             ######
+
+        for filename in filename_list:
 
             results_printout, audio_length_s, confidence_metric, words_list, categories_list, is_urgent = handler_in_str_to_out_str(
                 audio_file_name_w_extension=filename,
@@ -74,8 +76,9 @@ def indexpost(confidence_threshold=0.6):
             else:
                 confidence_warning = ''  # Acceptable audio quality, transcription minimum confidence = ' + min_conf_prct_str + '%'
 
+            filename_only = os.path.basename(filename)
             call_list.append({
-                'base_filename': str(upload.filename),
+                'base_filename': str(filename_only),
                 'net_results': results_printout,
                 'call_duration': time.strftime('%H:%M:%S', time.gmtime(audio_length_s)),
                 'confidence_warning': confidence_warning,
