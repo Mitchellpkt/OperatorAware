@@ -1,8 +1,6 @@
 from flask import Flask
 import logging
 from logging.handlers import RotatingFileHandler
-
-
 app = Flask(__name__)
 
 # Start Log
@@ -14,4 +12,7 @@ app.logger.addHandler(logHandler)
 app.logger.setLevel(logging.DEBUG)
 
 from app import routes
+
+if __name__ == "__main__":
+    app.run(debug=True)
 
