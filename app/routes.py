@@ -41,6 +41,7 @@ def indexpost(confidence_threshold=0.6):
         net_results_printout = ''  # init
         call_list = list()
 
+        filename_list = list()
         # LOOP OVER UPLOADED FILES
         print(request.files.getlist("file"))
         for upload in request.files.getlist("file"):
@@ -54,6 +55,9 @@ def indexpost(confidence_threshold=0.6):
 
             upload.save(destination)
             print("Saved it to: ", destination)
+
+            filename_list.append(destination)
+            ######
 
             results_printout, audio_length_s, confidence_metric, words_list, categories_list, is_urgent = handler_in_str_to_out_str(
                 audio_file_name_w_extension=filename,
@@ -81,6 +85,10 @@ def indexpost(confidence_threshold=0.6):
                 'is_urgent': is_urgent
             })
 
+        if not filename_list:
+            print("EMPTY FILE UPLOAD!!!!!")
+            new_filename_list = os.listdir(os.path.join(APP_ROOT, 'static/demo_files'))
+            print(new_filename_list)
+
         # Return the result
-        # Change this to an output template
         return render_template('output.html', calls=call_list)
