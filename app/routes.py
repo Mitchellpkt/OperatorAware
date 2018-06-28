@@ -13,6 +13,10 @@ APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 def index():
     return render_template('index.html')
 
+@app.route('/index2')
+def index2():
+    return render_template('index2.html')
+
 
 @app.route("/pentest.html")
 @app.route("/pentest")
