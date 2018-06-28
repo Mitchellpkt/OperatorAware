@@ -9,16 +9,19 @@ APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 @app.route('/pentest')
 def pentest():
+    print('route through pentest')
     return render_template('pentest.html')
 
 @app.route('/')
 @app.route('/index')
 def index():
+    print('route through index alone')
     return render_template('index.html')
 
 @app.route('/', methods=["POST"])
 @app.route('/index', methods=["POST"])
 def indexpost(confidence_threshold=0.6):
+    print('route through index post')
 
     # Generate and create target path for audio file (uploads)
     target = os.path.join(APP_ROOT, 'uploads/')
