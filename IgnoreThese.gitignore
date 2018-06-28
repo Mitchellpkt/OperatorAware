@@ -6,8 +6,6 @@ __pycache__
 
 app/__pycache__
 
-app/static
-
 app/uploads
 
 operator_aware_lib/__pycache__
