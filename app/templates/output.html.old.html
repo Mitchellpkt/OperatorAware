@@ -1,0 +1,95 @@
+<HTML>
+
+<HEAD>
+    <TITLE>Operator Aware - Output</TITLE>
+    <!--<link rel="stylesheet" type="text/css" href="mystyle.css">-->
+    <style>
+        hr {
+            border: none;
+            border-top: 3px double #333;
+            color: #333;
+            overflow: visible;
+            text-align: center;
+            height: 5px;
+        }
+
+        hr:after {
+            background: #fff;
+            content: '§';
+            padding: 0 4px;
+            position: relative;
+            top: -13px;
+        }
+
+        .shadow1 {
+            margin: 40px;
+            background-color: rgb(68, 68, 68); /* Needed for IEs */
+
+            -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            max-width: 600;
+
+            filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShadow=true, ShadowOpacity=0.30);
+            -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+            zoom: 1;
+        }
+
+        .shadow1 .content {
+            position: relative; /* This protects the inner element from being blurred */
+            padding: 35px;
+            background-color: #DDD;
+        }
+
+    </style>
+</HEAD>
+
+<BODY BGCOLOR="FFFFFF">
+
+
+<!--<CENTER><IMG SRC="https://pride.physio/wp-content/uploads/2016/10/operator-865x655.jpg" ALIGN="TOP"> </CENTER>-->
+
+
+<h1>OperatorAware Analysis</h1>
+{% for call in calls %}
+
+<div class="shadow1">
+    <div class="content">
+
+        <p>Analysis of <b>{{ call.base_filename }}:</b><br>
+
+
+            Duration: {{ call.call_duration}} {{ call.confidence_warning }}<br><br>
+
+            <!--Urgency count: {{ call.is_urgent }}-->
+
+            {% if call.is_urgent %}
+
+            The call may contain these situations: <font color="red"> {{call.categories_list}} </font><br>
+
+            based on the keywords <font color="blue"> {{call.words_list}} </font><br><br>
+
+            <img src="https://i.imgur.com/lV7Nr3Y.png">
+
+            {% else %}
+        <h2><font color="green">No emergency detected</font></h2>
+        </br>
+        Listen to call:
+        {% endif %}
+
+        <br>
+        <audio controls>
+            <source src="{{ call.audio_file_path }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</div>
+
+{% endfor %}
+
+
+</BODY>
+
+</HTML>
+
+
