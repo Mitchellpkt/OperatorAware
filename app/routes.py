@@ -13,22 +13,16 @@ APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 def index():
     return render_template('index.html')
 
-@app.route('/index2')
-def index2():
-    return render_template('index2.html')
-
-
-@app.route("/pentest.html")
-@app.route("/pentest")
+@app.route('/pentest.html')
+@app.route('/pentest')
 def pentest():
     return render_template('pentest.html')
-
 
 @app.route("/", methods=["POST"])
 @app.route("/index", methods=["POST"])
 def indexpost(confidence_threshold=0.6):
-    # Generate and create target path for audio file (uploads)
 
+    # Generate and create target path for audio file (uploads)
     target = os.path.join(APP_ROOT, 'uploads/')
     if not os.path.isdir(target):
         os.mkdir(target)
@@ -41,6 +35,7 @@ def indexpost(confidence_threshold=0.6):
 
     if authenticated == 0:
         return render_template('wrong_passphrase.html')
+
     else:
         # Continue ahead
         net_results_printout = ''  # init
