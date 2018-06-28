@@ -42,3 +42,12 @@
 [2018-Jun-28 16:53] 127.0.0.1 POST http /? 200 OK
 [2018-Jun-28 16:54] 127.0.0.1 GET http /? 200 OK
 [2018-Jun-28 16:54] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-28 16:59] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-28 16:59] 127.0.0.1 GET http /static/css/normalize.css? 200 OK
+[2018-Jun-28 16:59] 127.0.0.1 GET http /static/css/demo.css? 200 OK
+[2018-Jun-28 16:59] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-28 16:59] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-28 16:59] 127.0.0.1 GET http /static/css/normalize.css? 304 NOT MODIFIED
+[2018-Jun-28 16:59] 127.0.0.1 GET http /static/css/demo.css? 304 NOT MODIFIED
+[2018-Jun-28 16:59] 127.0.0.1 GET http /static/css/component.css? 304 NOT MODIFIED
+[2018-Jun-28 16:59] 127.0.0.1 POST http /? 200 OK

@@ -59,6 +59,13 @@ def indexpost(confidence_threshold=0.6):
             filename_list.append(destination)
             ######
 
+        # IF NO FILES UPLOADED, USE DEMO
+        if not filename_list:
+            print("EMPTY FILE UPLOAD!!!!!")
+            new_filename_list = os.listdir(os.path.join(APP_ROOT, 'static/demo_files'))
+            filename_list = [os.path.join(APP_ROOT, 'static', f) for f in new_filename_list]
+            print(new_filename_list)
+
         for filename in filename_list:
 
             results_printout, audio_length_s, confidence_metric, words_list, categories_list, is_urgent = handler_in_str_to_out_str(
