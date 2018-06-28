@@ -23,7 +23,7 @@ def indexpost(confidence_threshold=0.6):
     print('route through index post')
 
     # Generate and create target path for audio file (uploads)
-    target = os.path.join(APP_ROOT, 'uploads/')
+    target = os.path.join(APP_ROOT, 'static/uploads')
     if not os.path.isdir(target):
         os.mkdir(target)
     else:
