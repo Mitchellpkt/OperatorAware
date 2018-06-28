@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
+
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,6 +20,22 @@
         var r = e.querySelectorAll("html")[0];
         r.className = r.className.replace(/(^|\s)no-js(\s|$)/, "$1js$2")
     })(document, window, 0);</script>
+
+
+    <style type="text/css">
+        input[type=submit] {
+            padding: 15px 20px;
+            /*background: #ccc;*/
+            /*border: 0 none;*/
+            cursor: pointer;
+            -webkit-border-radius: 15px;
+            border-radius: 15px;
+            font-size:25px;
+            font-color: darkred
+        }
+
+    </style>
+
 </head>
 <body>
 <div class="container">
@@ -46,7 +63,19 @@
                 <h2> 2) Enter supervisor passphrase:<br>
                     <input id="password" type="password" name="password" maxlength="60">
                     <br>
-                    <h2> 3) Press to submit:</h2> <input type="submit" value="OperatorAware Analyze" id="upload-button">
+                    <h2> 3) Press to submit:</h2> <input type="submit" value="OperatorAware Analyze" id="upload-button" onclick="myFunction()">
+
+
+
+        <!--in the <input type="sumbit"... had also added: onclick="myFunction()"-->
+            <script>
+            function myFunction() {
+                var change = document.getElementById("upload-button");
+                    change.value = "Analysis underway, please wait";
+            }
+
+        </script>
+
             </form>
                 <br><br><IMG SRC="https://pride.physio/wp-content/uploads/2016/10/operator-865x655.jpg" ALIGN="center" height="327" width="432"><br>
         </div>

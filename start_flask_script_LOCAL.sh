@@ -4,4 +4,6 @@ export GOOGLE_APPLICATION_CREDENTIALS="/home/m/Dropbox/Projects/OperatorAware/Gi
 
 export FLASK_APP=OperatorAwareFlaskTop.py
 
+export FLASK_ENV=development
+
 flask run
