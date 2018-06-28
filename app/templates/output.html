@@ -21,6 +21,25 @@
             top: -13px;
         }
 
+        .shadow1 {
+            margin: 40px;
+            background-color: rgb(68, 68, 68); /* Needed for IEs */
+
+            -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+
+            filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShadow=true, ShadowOpacity=0.30);
+            -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+            zoom: 1;
+        }
+
+        .shadow1 .content {
+            position: relative; /* This protects the inner element from being blurred */
+            padding: 100px;
+            background-color: #DDD;
+        }
+
     </style>
 </HEAD>
 
@@ -32,33 +51,40 @@
 
 <h1>OperatorAware Analysis</h1>
 {% for call in calls %}
-<hr>
 
-<p>Analysis of <b>{{ call.base_filename }}:</b><br>
-    Duration: {{ call.call_duration}} {{ call.confidence_warning }}<br><br>
+<div class="shadow1">
+    <div class="content">
 
-    <!--Urgency count: {{ call.is_urgent }}-->
+        <p>Analysis of <b>{{ call.base_filename }}:</b><br>
 
-    {% if call.is_urgent %}
 
-    The call may contain these situations: <font color="red"> {{call.categories_list}} </font><br>
+            Duration: {{ call.call_duration}} {{ call.confidence_warning }}<br><br>
 
-    based on the keywords <font color="blue"> {{call.words_list}} </font><br><br>
+            <!--Urgency count: {{ call.is_urgent }}-->
 
-    <img src="https://i.imgur.com/lV7Nr3Y.png">
+            {% if call.is_urgent %}
 
-    {% else %}
-<h2><font color="green">No emergency detected</font></h2>
-    </br>
-    Listen to call:
-    {% endif %}
+            The call may contain these situations: <font color="red"> {{call.categories_list}} </font><br>
 
-    <br>
-    <audio controls>
-        <source src="{{ call.audio_file_path }}" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    {% endfor %}
+            based on the keywords <font color="blue"> {{call.words_list}} </font><br><br>
+
+            <img src="https://i.imgur.com/lV7Nr3Y.png">
+
+            {% else %}
+        <h2><font color="green">No emergency detected</font></h2>
+        </br>
+        Listen to call:
+        {% endif %}
+
+        <br>
+        <audio controls>
+            <source src="{{ call.audio_file_path }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</div>
+
+{% endfor %}
 
 
 </BODY>

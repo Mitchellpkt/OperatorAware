@@ -13,7 +13,6 @@ APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 def index():
     return render_template('index.html')
 
-@app.route('/pentest.html')
 @app.route('/pentest')
 def pentest():
     return render_template('pentest.html')
