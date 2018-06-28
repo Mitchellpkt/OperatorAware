@@ -46,52 +46,23 @@ def indexpost(confidence_threshold=0.6):
         # what_to_load = request.form['dropdown_selection']
         # if what_to_load == 'upload_call_option':
 
-        if 1==1:
-            # LOOP OVER UPLOADED FILES
-            print(request.files.getlist("file"))
-            for upload in request.files.getlist("file"):
-                print(upload)
+        # LOOP OVER UPLOADED FILES
+        print(request.files.getlist("file"))
+        for upload in request.files.getlist("file"):
+            print(upload)
 
-                filename = upload.filename
-                print("{} is the filename".format(filename))
+            filename = upload.filename
+            print("{} is the filename".format(filename))
 
-                destination = "/".join([target, filename])
-                print("Accepted incoming file: ", filename)
+            destination = "/".join([target, filename])
+            print("Accepted incoming file: ", filename)
 
-                upload.save(destination)
-                print("Saved it to: ", destination)
+            upload.save(destination)
+            print("Saved it to: ", destination)
 
-                results_printout, audio_length_s, confidence_metric, words_list, categories_list, is_urgent = handler_in_str_to_out_str(
-                    audio_file_name_w_extension=filename,
-                    audio_folder_path=os.path.join(target),
-                    transcription_directory_path='auto', qVerbose=1,
-                    str_dict_version='newest', demo_mode=1)
-
-                min_conf = float(min(confidence_metric))
-                min_conf_prct_str = str(round(min_conf * 100))
-                print('min_conf is type: ' + str(type(min_conf)))
-                print('confidence_threshold is type: ' + str(type(confidence_threshold)))
-                if min_conf < confidence_threshold:
-                    confidence_warning = ' [Warning: low transcription confidence: ' + min_conf_prct_str + '%]'
-                else:
-                    confidence_warning = ''  # Acceptable audio quality, transcription minimum confidence = ' + min_conf_prct_str + '%'
-
-                call_list.append({
-                    'base_filename': str(upload.filename),
-                    'net_results': results_printout,
-                    'call_duration': time.strftime('%H:%M:%S', time.gmtime(audio_length_s)),
-                    'confidence_warning': confidence_warning,
-                    'audio_file_path': filename,
-                    'words_list': words_list,
-                    'categories_list': categories_list,
-                    'is_urgent': is_urgent
-                })
-
-        else:
             results_printout, audio_length_s, confidence_metric, words_list, categories_list, is_urgent = handler_in_str_to_out_str(
-                audio_file_name_w_extension=what_to_load,
-                audio_folder_path=os.path.join(target, '..',
-                                               'demo_audio_files'),
+                audio_file_name_w_extension=filename,
+                audio_folder_path=os.path.join(target),
                 transcription_directory_path='auto', qVerbose=1,
                 str_dict_version='newest', demo_mode=1)
 
@@ -99,19 +70,17 @@ def indexpost(confidence_threshold=0.6):
             min_conf_prct_str = str(round(min_conf * 100))
             print('min_conf is type: ' + str(type(min_conf)))
             print('confidence_threshold is type: ' + str(type(confidence_threshold)))
-            print(type(min_conf))
-            print(type(confidence_threshold))
             if min_conf < confidence_threshold:
                 confidence_warning = ' [Warning: low transcription confidence: ' + min_conf_prct_str + '%]'
             else:
                 confidence_warning = ''  # Acceptable audio quality, transcription minimum confidence = ' + min_conf_prct_str + '%'
 
             call_list.append({
-                'base_filename': str(what_to_load),
+                'base_filename': str(upload.filename),
                 'net_results': results_printout,
                 'call_duration': time.strftime('%H:%M:%S', time.gmtime(audio_length_s)),
                 'confidence_warning': confidence_warning,
-                'audio_file_path': what_to_load,
+                'audio_file_path': filename,
                 'words_list': words_list,
                 'categories_list': categories_list,
                 'is_urgent': is_urgent

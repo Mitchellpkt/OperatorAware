@@ -21,14 +21,6 @@ Contact <a target="_blank" href="mailto:mitchellpkt@protonmail.com">mitchellpkt@
 
 <hr>
 <form id="upload-form" action="{{ url_for('index') }}" method="POST" enctype="multipart/form-data">
-<!--    <h2> 1a) Select a call: </h2>
-    <select name="dropdown_selection">
-        <option value="upload_call_option">Upload call(s), below</option>
-        <option value="murder_long.flac">Demo Call 1</option>
-        <option value="80basset_fire_short.flac">Demo Call 2</option>
-        <option value="granny_wants_a_beer.flac">Demo Call 3</option>
-    </select>
-    <br>-->
 
     <h2> 1) Upload call files:</h2>
     <input id="file-picker" type="file" name="file" multiple>
@@ -39,24 +31,6 @@ Contact <a target="_blank" href="mailto:mitchellpkt@protonmail.com">mitchellpkt@
     <br>
    <h2> 3) Press to submit:</h2> <input type="submit" value="OperatorAware Analyze" id="upload-button">
 </form>
-
-<!--OLD CODE FOR SELECTING FROM EXTANT FILES-->
-<!--<H2>Which call to review?</H2>
-
-<form name="Item_1" method='POST'>
-    <select name="Item_1">
-        <option value="murder_short.flac">Call 1</option>
-        <option value="fire_short.flac">Call 2</option>
-    </select>
-    <button type="submit">Analyze!</button>
-</form>
-<HR>-->
-
-<!--
-<img src="https://i.imgur.com/N3pl4nM.png" alt="algo"><br>
-
-<img src="https://i.imgur.com/rjrclCe.png" alt="interface"><br>
--->
 
 </BODY>
 
