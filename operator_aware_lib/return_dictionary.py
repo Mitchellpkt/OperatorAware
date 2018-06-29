@@ -43,7 +43,7 @@ def return_dictionary(str_dict_version='newest'):
                             'rifle', 'bullet'],
             'medicalWords': ['heart', 'stroke', 'breathing', 'unconscious', 'collapsed', 'diabetic', 'ambulance',
                              'doctor', 'hospital', 'blood', 'CPR'],
-            'vehicleWords': ['crash', 'accident', 'airbag'],
+            'vehicleWords': ['crash', 'accident', 'airbag', 'car'],
             'domesticWords': ['domestic', 'abuse', 'fight', 'argument', 'arguing', 'relationship','yelling','yell'],
             'fireWords': ['fire', 'fires', 'burn', 'burned', 'burning', 'arson', 'flame', 'flames'],
             'miscWords': ['violent', 'suicidal', 'suicide', 'drunk', 'trapped', 'missing','rob','robbed','stole','stolen'],
