@@ -90,22 +90,26 @@
             {% for call in calls %}
             <div class="shadow1">
                 <div class="content">
+
+                    {% if call.is_not_demo %}
+                    <font size="4">
                     Analysis of <b><h2>{{ call.base_filename }}:</h2></b>
 
+                    {% endif %}
 
-                        Duration: {{ call.call_duration}} {{ call.confidence_warning }}<br>
+                    Duration: {{ call.call_duration}} {{ call.confidence_warning }}<br><br>
 
-                        <!--Urgency count: {{ call.is_urgent }}-->
+                    <!--Urgency count: {{ call.is_urgent }}-->
 
-                        {% if call.is_urgent %}
+                    {% if call.is_urgent %}
 
-                    The call may contain these situations:<h2> <font color="red"> {{call.categories_list}} </font></h2>
+                    The call may contain these situations:<h2><font color="red"> {{call.categories_list}} </font></h2>
 
                     based on the keywords <h2><font color="blue"> {{call.words_list}} </font></h2>
 
-                        <img src="https://i.imgur.com/lV7Nr3Y.png">
+                    <img src="https://i.imgur.com/lV7Nr3Y.png">
 
-                        {% else %}
+                    {% else %}
                     <h2><font color="green">No emergency detected</font></h2>
                     </br>
                     Listen to call:
@@ -113,9 +117,12 @@
 
                     <br>
                     <audio controls>
-                         <source src="{{ url_for('static', filename='uploads/' + call.base_filename) }}" type="audio/mpeg">
+                        <source src="{{ url_for('static', filename='uploads/' + call.base_filename) }}"
+                                type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
+
+                    </font>
                 </div>
             </div>
 

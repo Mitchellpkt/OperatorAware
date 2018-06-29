@@ -4,6 +4,7 @@ from operator_aware_lib.handler_in_str_to_out_str import handler_in_str_to_out_s
 from operator_aware_lib.check_passphrase import check_passphrase
 import time
 import os
+import re
 from shutil import copyfile
 
 
@@ -61,8 +62,10 @@ def indexpost(confidence_threshold=0.6):
             filename_list.append(destination)
             ######
 
+        is_not_demo = 1
         # IF NO FILES UPLOADED, USE DEMO
         if (pswd_from_user=="") or (not filename_list):
+            is_not_demo = 0
             print("DEMO!!!!!")
             new_filename_list = os.listdir(os.path.join(APP_ROOT, 'static/demo_files'))
             print('new_filename_list:')
@@ -106,15 +109,25 @@ def indexpost(confidence_threshold=0.6):
                 confidence_warning = ''  # Acceptable audio quality, transcription minimum confidence = ' + min_conf_prct_str + '%'
 
             filename_only = os.path.basename(filename)
+            print('is_not_demo')
+            print(is_not_demo)
+
+            words_list_string = str(words_list)
+            words_list_string = re.sub("[]'[]", '', words_list_string)
+
+            categories_list_string = str(categories_list)
+            categories_list_string = re.sub("[]'[]", '', categories_list_string)
+
             call_list.append({
                 'base_filename': str(filename_only),
                 'net_results': results_printout,
                 'call_duration': time.strftime('%H:%M:%S', time.gmtime(audio_length_s)),
                 'confidence_warning': confidence_warning,
                 'audio_file_path': filename,
-                'words_list': words_list,
-                'categories_list': categories_list,
-                'is_urgent': is_urgent
+                'words_list': words_list_string,
+                'categories_list': categories_list_string,
+                'is_urgent': is_urgent,
+                'is_not_demo': is_not_demo
             })
 
         if not filename_list:
