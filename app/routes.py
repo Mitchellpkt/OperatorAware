@@ -118,6 +118,9 @@ def indexpost(confidence_threshold=0.6):
             categories_list_string = str(categories_list)
             categories_list_string = re.sub("[]'[]", '', categories_list_string)
 
+            if pswd_from_user=="debug":
+                is_not_demo = 1
+
             call_list.append({
                 'base_filename': str(filename_only),
                 'net_results': results_printout,
