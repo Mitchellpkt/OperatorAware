@@ -63,12 +63,21 @@ def indexpost(confidence_threshold=0.6):
 
         # IF NO FILES UPLOADED, USE DEMO
         if (pswd_from_user=="") or (not filename_list):
-            print("EMPTY FILE UPLOAD!!!!!")
+            print("DEMO!!!!!")
             new_filename_list = os.listdir(os.path.join(APP_ROOT, 'static/demo_files'))
-            filename_list = [os.path.join(APP_ROOT, 'static', 'demo_files', f) for f in new_filename_list]
+            print('new_filename_list:')
+            print(new_filename_list)
+            filename_list_all = [os.path.join(APP_ROOT, 'static', 'demo_files', f) for f in new_filename_list]
+            filename_list = list()
+            for f in filename_list_all:
+                print(str(f[-4:]))
+                if f[-4:].upper() != 'FLAC':
+                    filename_list.append(f)
+                    print('adding: ' + str(f))
             for f in filename_list:
                 copyfile(f, '../uploads')
-            print(new_filename_list)
+                print('copied: ' + str(f))
+            print(filename_list)
 
         for filename in filename_list:
 
