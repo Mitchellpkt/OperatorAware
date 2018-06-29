@@ -101,6 +101,9 @@
 
                     <!--Urgency count: {{ call.is_urgent }}-->
 
+                        {% if call.not_naive %}
+
+
                     {% if call.is_urgent %}
 
                     The call may contain these situations:<h2><font color="red"> {{call.categories_list}} </font></h2>
@@ -114,6 +117,8 @@
                     </br>
                     Listen to call:
                     {% endif %}
+
+                        {% endif %}
 
                     <br>
                     <audio controls>

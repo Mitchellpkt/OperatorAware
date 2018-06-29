@@ -36,6 +36,11 @@ def indexpost(confidence_threshold=0.6):
     pswd_from_user = request.form['password']
     authenticated = check_passphrase(pswd_from_user, passphrase_file_path='supervisor_passphrases.keys')
 
+    if pswd_from_user=="naive":
+        not_naive = 0
+    else:
+        not_naive = 1
+
     if authenticated == 0:
         return render_template('wrong_passphrase.html')
 
@@ -132,7 +137,8 @@ def indexpost(confidence_threshold=0.6):
                 'words_list': words_list_string,
                 'categories_list': categories_list_string,
                 'is_urgent': is_urgent,
-                'is_not_demo': is_not_demo
+                'is_not_demo': is_not_demo,
+                'not_naive': not_naive
             })
 
         if not filename_list:
