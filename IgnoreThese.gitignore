@@ -8,7 +8,7 @@ __pycache__
 
 app/__pycache__
 
-app/uploads
+app/static/uploads
 
 operator_aware_lib/__pycache__
 
