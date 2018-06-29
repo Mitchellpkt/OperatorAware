@@ -87,6 +87,8 @@ def indexpost(confidence_threshold=0.6):
                 print(uploads_dest)
                 copyfile(f, uploads_dest)
                 print('copied: ' + str(f))
+
+            filename_list.sort()
             print(filename_list)
 
         for filename in filename_list:
