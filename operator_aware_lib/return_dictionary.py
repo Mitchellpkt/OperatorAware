@@ -47,8 +47,8 @@ def return_dictionary(str_dict_version='newest'):
             'domesticWords': ['domestic', 'abuse', 'fight', 'argument', 'arguing', 'relationship','yelling','yell'],
             'fireWords': ['fire', 'fires', 'burn', 'burned', 'burning', 'arson', 'flame', 'flames'],
             'miscWords': ['violent', 'suicidal', 'suicide', 'drunk', 'trapped', 'missing','rob','robbed','stole','stolen'],
-            'drugWords': ['alcohol', 'beer', 'wine', 'liquor', 'drink', 'drinking', 'drunk', 'belligerent', 'marijuana',
-                          'weed', 'pot', 'meth', 'herion', 'crack', 'cocaine','amphetamine','speed'],
+            #'drugWords': ['alcohol', 'beer', 'wine', 'liquor', 'drink', 'drinking', 'drunk', 'belligerent', 'marijuana',
+            #              'weed', 'pot', 'meth', 'herion', 'crack', 'cocaine','amphetamine','speed'],
             'benignWords': ['butt', 'wrong number']}
 
         danger_names = {'weaponWords': 'weapon',
