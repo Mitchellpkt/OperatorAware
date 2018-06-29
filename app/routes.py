@@ -70,12 +70,19 @@ def indexpost(confidence_threshold=0.6):
             filename_list_all = [os.path.join(APP_ROOT, 'static', 'demo_files', f) for f in new_filename_list]
             filename_list = list()
             for f in filename_list_all:
+                print('Looping over:')
+                print(str(f))
                 print(str(f[-4:]))
                 if f[-4:].upper() != 'FLAC':
                     filename_list.append(f)
                     print('adding: ' + str(f))
             for f in filename_list:
-                copyfile(f, '../uploads')
+                print('from: ')
+                print(f)
+                print('to: ')
+                uploads_dest = os.path.join(APP_ROOT, 'static', 'uploads', os.path.basename(f))
+                print(uploads_dest)
+                copyfile(f, uploads_dest)
                 print('copied: ' + str(f))
             print(filename_list)
 
@@ -84,7 +91,9 @@ def indexpost(confidence_threshold=0.6):
             results_printout, audio_length_s, confidence_metric, words_list, categories_list, is_urgent = handler_in_str_to_out_str(
                 audio_file_name_w_extension=filename,
                 audio_folder_path=os.path.join(target),
-                transcription_directory_path=os.path.join(APP_ROOT,'text_training_data'), qVerbose=1,
+                transcription_slices_directory_path=os.path.join(APP_ROOT,'../CACHE_transcriptions'),
+                transcription_training_directory_path=os.path.join(APP_ROOT,'../text_training_data'),
+                qVerbose=1,
                 str_dict_version='newest', demo_mode=1)
 
             min_conf = float(min(confidence_metric))

@@ -32,7 +32,7 @@
 # EXAMPLE:
 #
 
-def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='auto',transcription_directory_path='auto',qVerbose=1,str_dict_version='newest',demo_mode=0):
+def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='auto',transcription_slices_directory_path='auto',transcription_training_directory_path='auto',qVerbose=1,str_dict_version='newest',demo_mode=0):
     # Load in the relevant modules,
     import os
     import hashlib
@@ -110,15 +110,17 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
         print('Loading: ' + segment_filename)
 
         # Specify transcription directory
-        if transcription_directory_path=='auto':
+        if transcription_slices_directory_path=='auto':
             use_transcript_directory = os.path.join(
                 os.getcwd(),
                 'CACHE_transcriptions')
         else:
-            use_transcript_directory = transcription_directory_path
+            use_transcript_directory = transcription_slices_directory_path
 
         # Fetch the transcript
-        transcription_str, this_confidence_metric = fetch_transcript(audio_data, audio_config, use_transcript_directory, qVerbose=qVerbose, force_fresh=0, do_not_save=0)
+        print('pieces of transcriptions stored in: ')
+        print(transcription_slices_directory_path)
+        transcription_str, this_confidence_metric = fetch_transcript(audio_data, audio_config, transcript_directory=transcription_slices_directory_path, qVerbose=qVerbose, force_fresh=0, do_not_save=0)
         confidence_metric.append(this_confidence_metric)
         net_transcription += ' /// ' + transcription_str
         print('Transcription for segment:')
@@ -154,7 +156,9 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
         f_open.close()
 
     # Training data path
-    training_data_path = os.path.join(audio_folder_path, '..', '..', 'text_training_data') # is .. .. dangerous?? probably
+    print('training directory is:')
+    print(transcription_training_directory_path)
+    training_data_path = os.path.join(transcription_training_directory_path) # is .. .. dangerous?? probably
     if not os.path.isdir(training_data_path):
         os.mkdir(training_data_path)
 

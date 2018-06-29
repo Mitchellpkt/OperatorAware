@@ -109,3 +109,29 @@
 [2018-Jun-28 22:22] 127.0.0.1 POST http /? 200 OK
 [2018-Jun-28 22:24] 127.0.0.1 GET http /? 200 OK
 [2018-Jun-28 22:24] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-28 22:25] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-28 22:25] 127.0.0.1 GET http /static/css/normalize.css? 200 OK
+[2018-Jun-28 22:25] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-28 22:37] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-28 22:39] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-28 22:40] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-28 22:40] 127.0.0.1 GET http /static/css/normalize.css? 304 NOT MODIFIED
+[2018-Jun-28 22:40] 127.0.0.1 GET http /static/css/demo.css? 304 NOT MODIFIED
+[2018-Jun-28 22:40] 127.0.0.1 GET http /static/css/component.css? 304 NOT MODIFIED
+[2018-Jun-28 22:40] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-28 22:44] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-28 22:44] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-28 22:47] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-28 22:49] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-28 22:49] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-28 22:50] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-28 22:50] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-28 23:15] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-28 23:16] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-28 23:17] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-28 23:17] 127.0.0.1 GET http /static/css/component.css? 200 OK
+[2018-Jun-28 23:17] 127.0.0.1 GET http /static/css/normalize.css? 200 OK
+[2018-Jun-28 23:17] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-28 23:17] 127.0.0.1 GET http /static/uploads/short_murder.mp3? 200 OK
+[2018-Jun-28 23:17] 127.0.0.1 GET http /static/uploads/short_bottleopener.mp3? 200 OK
+[2018-Jun-28 23:17] 127.0.0.1 GET http /static/uploads/short_basset.mp3? 200 OK
