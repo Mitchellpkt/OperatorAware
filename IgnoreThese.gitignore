@@ -2,6 +2,8 @@ OperatorAware-5f653aaf3399.json
 
 supervisor_passphrases.keys
 
+*log
+
 *.log.*
 
 __pycache__
