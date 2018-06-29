@@ -2,7 +2,7 @@ OperatorAware-5f653aaf3399.json
 
 supervisor_passphrases.keys
 
-oaflask.log
+*.log.*
 
 __pycache__
 
