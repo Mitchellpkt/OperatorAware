@@ -4,6 +4,8 @@ from operator_aware_lib.handler_in_str_to_out_str import handler_in_str_to_out_s
 from operator_aware_lib.check_passphrase import check_passphrase
 import time
 import os
+from shutil import copyfile
+
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -60,10 +62,12 @@ def indexpost(confidence_threshold=0.6):
             ######
 
         # IF NO FILES UPLOADED, USE DEMO
-        if not filename_list:
+        if (pswd_from_user=="") or (not filename_list):
             print("EMPTY FILE UPLOAD!!!!!")
             new_filename_list = os.listdir(os.path.join(APP_ROOT, 'static/demo_files'))
             filename_list = [os.path.join(APP_ROOT, 'static', 'demo_files', f) for f in new_filename_list]
+            for f in filename_list:
+                copyfile(f, '../uploads')
             print(new_filename_list)
 
         for filename in filename_list:
