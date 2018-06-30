@@ -1,103 +1,33 @@
-[2018-Jun-30 15:57] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 15:57] 127.0.0.1 GET http /static/css/component.css? 304 NOT MODIFIED
-[2018-Jun-30 15:57] 127.0.0.1 GET http /static/css/normalize.css? 304 NOT MODIFIED
-[2018-Jun-30 15:57] 127.0.0.1 GET http /static/css/demo.css? 304 NOT MODIFIED
-[2018-Jun-30 15:57] 127.0.0.1 GET http /static/uploads/911bigfoot.mp3? 206 PARTIAL CONTENT
-[2018-Jun-30 15:57] 127.0.0.1 GET http /static/uploads/911burgerking.mp3? 206 PARTIAL CONTENT
-[2018-Jun-30 15:59] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/css/demo.css? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/css/normalize.css? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/uploads/911burgerking.mp3? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/uploads/Track204 - People walking in the store.mp3? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/uploads/Track205a_short_murder.mp3? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/uploads/Track206 - My Fiancee.mp3? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/uploads/Track316 - A big black cow.mp3? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/uploads/Track317a_Tom Bradys Car Accident 911 Call.mp3? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/uploads/Track212 - Hit on a dog.mp3? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/uploads/Track216 - What is the day today.mp3? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/uploads/Track222 - A Test To Check Whether 911 is Working.mp3? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/uploads/Track303 - Listen to me, Rap!.mp3? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/uploads/short_basset.mp3? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/uploads/short_murder.mp3? 200 OK
-[2018-Jun-30 15:59] 127.0.0.1 GET http /static/uploads/short_bottleopener.mp3? 200 OK
-[2018-Jun-30 16:00] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:01] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:01] 127.0.0.1 GET http /static/uploads/911burgerking.mp3? 200 OK
-[2018-Jun-30 16:01] 127.0.0.1 GET http /static/uploads/Track317a_Tom Bradys Car Accident 911 Call.mp3? 200 OK
-[2018-Jun-30 16:01] 127.0.0.1 GET http /static/uploads/short_bottleopener.mp3? 200 OK
-[2018-Jun-30 16:04] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:04] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:04] 127.0.0.1 GET http /static/uploads/4_Track212 - Hit on a dog.mp3? 200 OK
-[2018-Jun-30 16:04] 127.0.0.1 GET http /static/uploads/Track204 - People walking in the store.mp3? 200 OK
-[2018-Jun-30 16:04] 127.0.0.1 GET http /static/uploads/Track206 - My Fiancee.mp3? 200 OK
-[2018-Jun-30 16:04] 127.0.0.1 GET http /static/uploads/Track205a_short_murder.mp3? 200 OK
-[2018-Jun-30 16:04] 127.0.0.1 GET http /static/uploads/Track212 - Hit on a dog.mp3? 200 OK
-[2018-Jun-30 16:04] 127.0.0.1 GET http /static/uploads/Track216 - What is the day today.mp3? 200 OK
-[2018-Jun-30 16:04] 127.0.0.1 GET http /static/uploads/Track222 - A Test To Check Whether 911 is Working.mp3? 200 OK
-[2018-Jun-30 16:05] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:05] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:06] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:07] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:07] 127.0.0.1 GET http /static/uploads/Track205a_short_murder.mp3? 200 OK
-[2018-Jun-30 16:07] 127.0.0.1 GET http /static/uploads/Track204 - People walking in the store.mp3? 200 OK
-[2018-Jun-30 16:07] 127.0.0.1 GET http /static/uploads/Track206 - My Fiancee.mp3? 200 OK
-[2018-Jun-30 16:07] 127.0.0.1 GET http /static/uploads/Track212 - Hit on a dog.mp3? 200 OK
-[2018-Jun-30 16:07] 127.0.0.1 GET http /static/uploads/Track216 - What is the day today.mp3? 200 OK
-[2018-Jun-30 16:07] 127.0.0.1 GET http /static/uploads/Track222 - A Test To Check Whether 911 is Working.mp3? 200 OK
-[2018-Jun-30 16:07] 127.0.0.1 GET http /static/uploads/Track303 - Listen to me, Rap!.mp3? 200 OK
-[2018-Jun-30 16:07] 127.0.0.1 GET http /static/uploads/short_bottleopener.mp3? 200 OK
-[2018-Jun-30 16:08] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:09] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:09] 127.0.0.1 GET http /static/uploads/short_bottleopener.mp3? 200 OK
-[2018-Jun-30 16:11] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:11] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:11] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:11] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:13] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:24] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:25] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:25] 127.0.0.1 GET http /static/uploads/Track204 - People walking in the store.mp3? 200 OK
-[2018-Jun-30 16:25] 127.0.0.1 GET http /static/uploads/Track205a_short_murder.mp3? 200 OK
-[2018-Jun-30 16:25] 127.0.0.1 GET http /static/uploads/Track222 - A Test To Check Whether 911 is Working.mp3? 200 OK
-[2018-Jun-30 16:25] 127.0.0.1 GET http /static/uploads/Track216 - What is the day today.mp3? 200 OK
-[2018-Jun-30 16:25] 127.0.0.1 GET http /static/uploads/short_murder.mp3? 200 OK
-[2018-Jun-30 16:25] 127.0.0.1 GET http /static/uploads/short_bottleopener.mp3? 200 OK
-[2018-Jun-30 16:25] 127.0.0.1 GET http /static/uploads/short_basset.mp3? 200 OK
-[2018-Jun-30 16:25] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:29] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:29] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:30] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:31] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:32] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:33] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:33] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:36] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:36] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:38] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:38] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:40] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:40] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/Track204 - People walking in the store.mp3? 200 OK
-[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/Track205a_short_murder.mp3? 200 OK
-[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/Track206 - My Fiancee.mp3? 200 OK
-[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/Track212 - Hit on a dog.mp3? 200 OK
-[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/Track216 - What is the day today.mp3? 200 OK
-[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/Track222 - A Test To Check Whether 911 is Working.mp3? 200 OK
-[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/Track303 - Listen to me, Rap!.mp3? 200 OK
-[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/short_basset.mp3? 200 OK
-[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/short_murder.mp3? 200 OK
-[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/short_bottleopener.mp3? 200 OK
-[2018-Jun-30 16:43] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:43] 127.0.0.1 POST http /? 200 OK
-[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/Track204 - People walking in the store.mp3? 200 OK
-[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/Track205a_short_murder.mp3? 200 OK
-[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/Track206 - My Fiancee.mp3? 200 OK
-[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/Track212 - Hit on a dog.mp3? 200 OK
-[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/Track216 - What is the day today.mp3? 200 OK
-[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/short_bottleopener.mp3? 200 OK
-[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/short_basset.mp3? 200 OK
-[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/short_murder.mp3? 200 OK
-[2018-Jun-30 16:44] 127.0.0.1 GET http /? 200 OK
-[2018-Jun-30 16:44] 127.0.0.1 GET http /static/css/normalize.css? 200 OK
-[2018-Jun-30 16:44] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 16:56] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 16:57] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 16:57] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 16:58] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 16:58] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 16:58] 127.0.0.1 GET http /static/uploads/Track204 - People walking in the store.mp3? 200 OK
+[2018-Jun-30 16:58] 127.0.0.1 GET http /static/uploads/Track205a_short_murder.mp3? 200 OK
+[2018-Jun-30 16:58] 127.0.0.1 GET http /static/uploads/Track206 - My Fiancee.mp3? 200 OK
+[2018-Jun-30 16:58] 127.0.0.1 GET http /static/uploads/short_basset.mp3? 200 OK
+[2018-Jun-30 16:58] 127.0.0.1 GET http /static/uploads/short_bottleopener.mp3? 200 OK
+[2018-Jun-30 16:58] 127.0.0.1 GET http /static/uploads/short_murder.mp3? 200 OK
+[2018-Jun-30 17:01] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 17:01] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 17:01] 127.0.0.1 GET http /static/uploads/Track204 - People walking in the store.mp3? 200 OK
+[2018-Jun-30 17:01] 127.0.0.1 GET http /static/uploads/Track222 - A Test To Check Whether 911 is Working.mp3? 200 OK
+[2018-Jun-30 17:01] 127.0.0.1 GET http /static/uploads/Track216 - What is the day today.mp3? 200 OK
+[2018-Jun-30 17:01] 127.0.0.1 GET http /static/uploads/Track212 - Hit on a dog.mp3? 200 OK
+[2018-Jun-30 17:01] 127.0.0.1 GET http /static/uploads/Track303 - Listen to me, Rap!.mp3? 200 OK
+[2018-Jun-30 17:01] 127.0.0.1 GET http /static/uploads/short_basset.mp3? 200 OK
+[2018-Jun-30 17:02] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 17:02] 127.0.0.1 GET http /static/css/normalize.css? 200 OK
+[2018-Jun-30 17:03] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 17:03] 127.0.0.1 GET http /static/uploads/Track204 - People walking in the store.mp3? 200 OK
+[2018-Jun-30 17:03] 127.0.0.1 GET http /static/uploads/Track205a_short_murder.mp3? 200 OK
+[2018-Jun-30 17:03] 127.0.0.1 GET http /static/uploads/Track206 - My Fiancee.mp3? 200 OK
+[2018-Jun-30 17:03] 127.0.0.1 GET http /static/uploads/Track216 - What is the day today.mp3? 200 OK
+[2018-Jun-30 17:03] 127.0.0.1 GET http /static/uploads/short_basset.mp3? 200 OK
+[2018-Jun-30 17:04] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 17:05] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 17:05] 127.0.0.1 GET http /static/uploads/Track205a_short_murder.mp3? 200 OK
+[2018-Jun-30 17:05] 127.0.0.1 GET http /static/uploads/Track216 - What is the day today.mp3? 200 OK
+[2018-Jun-30 17:05] 127.0.0.1 GET http /static/uploads/Track222 - A Test To Check Whether 911 is Working.mp3? 200 OK
+[2018-Jun-30 17:05] 127.0.0.1 GET http /static/uploads/short_basset.mp3? 200 OK

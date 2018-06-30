@@ -33,7 +33,7 @@
         .shadow1 .content {
             position: relative; /* This protects the inner element from being blurred */
             padding: 35px;
-            background-color: #fefefe /* ADJUST CARD COLOR HERE */
+            background-color: #F0F8FF /*#fefefe*/ /* ADJUST CARD COLOR HERE */
         }
 
     </style>
@@ -59,13 +59,21 @@
             <div class="shadow1">
                 <div class="content">
 
+                    {% if call.is_urgent %}
+                    {% if call.not_naive %}
+                    <img src="https://i.imgur.com/lV7Nr3Y.png"><br><br>
+
+                    {% endif %}
+                    {% endif %}
+
+
                     {% if call.is_not_demo %}
                     <font size="4">
                     <!-- Analysis of --> <b><h2>{{ call.base_filename }}:</h2></b>
 
                     {% endif %}
 
-                        <font size="5"> <b>Duration: {{ call.call_duration}} </b></font><br> <i>{{ call.confidence_warning }}</i>
+                        <font size="5"> <b>Duration: {{ call.call_duration}} </b></font><br>{% if call.not_naive %} <i>{{ call.confidence_warning }}</i>{% endif %}
 
                     <!--Urgency count: {{ call.is_urgent }}-->
 
@@ -79,10 +87,10 @@
                     <!-- The call may contain these situations: --> <h2>Classification: <font color="red"> {{call.categories_list}} </font></h2>
 
 
-                    <img src="https://i.imgur.com/lV7Nr3Y.png">
+
 
                     {% else %}
-                    <h2><font color="green">No emergency detected</font></h2>
+                    <h1><font color="#006400">No emergency detected</font></h1>
                     <!--  Listen to call: -->
                     {% endif %}
 
