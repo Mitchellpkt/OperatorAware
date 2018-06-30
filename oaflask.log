@@ -72,3 +72,32 @@
 [2018-Jun-30 16:32] 127.0.0.1 GET http /? 200 OK
 [2018-Jun-30 16:33] 127.0.0.1 GET http /? 200 OK
 [2018-Jun-30 16:33] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 16:36] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 16:36] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 16:38] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 16:38] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 16:40] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 16:40] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/Track204 - People walking in the store.mp3? 200 OK
+[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/Track205a_short_murder.mp3? 200 OK
+[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/Track206 - My Fiancee.mp3? 200 OK
+[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/Track212 - Hit on a dog.mp3? 200 OK
+[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/Track216 - What is the day today.mp3? 200 OK
+[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/Track222 - A Test To Check Whether 911 is Working.mp3? 200 OK
+[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/Track303 - Listen to me, Rap!.mp3? 200 OK
+[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/short_basset.mp3? 200 OK
+[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/short_murder.mp3? 200 OK
+[2018-Jun-30 16:40] 127.0.0.1 GET http /static/uploads/short_bottleopener.mp3? 200 OK
+[2018-Jun-30 16:43] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 16:43] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/Track204 - People walking in the store.mp3? 200 OK
+[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/Track205a_short_murder.mp3? 200 OK
+[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/Track206 - My Fiancee.mp3? 200 OK
+[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/Track212 - Hit on a dog.mp3? 200 OK
+[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/Track216 - What is the day today.mp3? 200 OK
+[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/short_bottleopener.mp3? 200 OK
+[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/short_basset.mp3? 200 OK
+[2018-Jun-30 16:43] 127.0.0.1 GET http /static/uploads/short_murder.mp3? 200 OK
+[2018-Jun-30 16:44] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 16:44] 127.0.0.1 GET http /static/css/normalize.css? 200 OK
+[2018-Jun-30 16:44] 127.0.0.1 POST http /? 200 OK
