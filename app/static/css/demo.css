@@ -148,7 +148,7 @@ a:focus {
 
 .content {
 	width: 100%;
-	max-width: 800px;
+	max-width: 600px;
 	text-align: center;
 	margin: 0 auto;
 	padding: 0 0 3em 0;
@@ -180,7 +180,7 @@ a:focus {
 .content--related {
 	text-align: center;
 	font-weight: bold;
-	padding-top: 4em;
+	padding-top: 2em; /* 4 originally */
 }
 
 .media-item {
