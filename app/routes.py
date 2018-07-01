@@ -120,7 +120,7 @@ def indexpost(confidence_threshold=0.6):
             print(is_not_demo)
 
             words_list_string = str(words_list)
-            words_list_string = re.sub("[][]", '', words_list_string) # indecisive about tics around keywords
+            words_list_string = re.sub("[] []", '', words_list_string) # indecisive about tics around keywords
 
             categories_list_string = str(categories_list)
             categories_list_string = re.sub("[]'[]", '', categories_list_string)

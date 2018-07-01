@@ -43,7 +43,7 @@ def return_dictionary(str_dict_version='newest'):
                             'rifle', 'bullet'],
             'medicalWords': ['heart', 'stroke', 'breathing', 'breathe', 'unconscious', 'collapsed', 'diabetic', 'ambulance',
                              'doctor', 'hospital', 'blood', 'CPR'],
-            'vehicleWords': ['crash', 'accident', 'airbag', 'car'],
+            'vehicleWords': ['crash', 'accident', 'airbag', 'car '],
             'domesticWords': ['domestic', 'abuse', 'fight', 'argument', 'arguing', 'relationship','yelling','yell'],
             'fireWords': ['fire', 'fires', 'burn', 'burned', 'burning', 'arson', 'flame', 'flames'],
             'miscWords': ['violent', 'suicidal', 'suicide', 'drunk', 'trapped', 'missing','robbed','stole','stolen'], # 'rob' causes false positives, e.g. pROBlem
@@ -51,7 +51,7 @@ def return_dictionary(str_dict_version='newest'):
             #              'weed', 'pot', 'meth', 'herion', 'crack', 'cocaine','amphetamine','speed'],
             # 'benignWords': ['butt', 'wrong number']}
         }
-        
+
         danger_names = {'weaponWords': 'weapon',
                         'medicalWords': 'medical emergency',
                         'vehicleWords': 'car crash',
