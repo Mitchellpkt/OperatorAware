@@ -41,12 +41,12 @@ def return_dictionary(str_dict_version='newest'):
         danger_words = {
             'weaponWords': ['knife', 'gun', 'guns', 'weapon', 'weapons', 'shoot', 'shot', 'armed', 'shotgun', 'handgun',
                             'rifle', 'bullet'],
-            'medicalWords': ['heart', 'stroke', 'breathing', 'unconscious', 'collapsed', 'diabetic', 'ambulance',
+            'medicalWords': ['heart', 'stroke', 'breathing', 'breathe', 'unconscious', 'collapsed', 'diabetic', 'ambulance',
                              'doctor', 'hospital', 'blood', 'CPR'],
             'vehicleWords': ['crash', 'accident', 'airbag', 'car'],
             'domesticWords': ['domestic', 'abuse', 'fight', 'argument', 'arguing', 'relationship','yelling','yell'],
             'fireWords': ['fire', 'fires', 'burn', 'burned', 'burning', 'arson', 'flame', 'flames'],
-            'miscWords': ['violent', 'suicidal', 'suicide', 'drunk', 'trapped', 'missing','rob','robbed','stole','stolen'],
+            'miscWords': ['violent', 'suicidal', 'suicide', 'drunk', 'trapped', 'missing','robbed','stole','stolen'], # 'rob' causes false positives, e.g. pROBlem
             #'drugWords': ['alcohol', 'beer', 'wine', 'liquor', 'drink', 'drinking', 'drunk', 'belligerent', 'marijuana',
             #              'weed', 'pot', 'meth', 'herion', 'crack', 'cocaine','amphetamine','speed'],
             'benignWords': ['butt', 'wrong number']}
