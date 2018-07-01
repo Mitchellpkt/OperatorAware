@@ -49,8 +49,9 @@ def return_dictionary(str_dict_version='newest'):
             'miscWords': ['violent', 'suicidal', 'suicide', 'drunk', 'trapped', 'missing','robbed','stole','stolen'], # 'rob' causes false positives, e.g. pROBlem
             #'drugWords': ['alcohol', 'beer', 'wine', 'liquor', 'drink', 'drinking', 'drunk', 'belligerent', 'marijuana',
             #              'weed', 'pot', 'meth', 'herion', 'crack', 'cocaine','amphetamine','speed'],
-            'benignWords': ['butt', 'wrong number']}
-
+            # 'benignWords': ['butt', 'wrong number']}
+        }
+        
         danger_names = {'weaponWords': 'weapon',
                         'medicalWords': 'medical emergency',
                         'vehicleWords': 'car crash',
