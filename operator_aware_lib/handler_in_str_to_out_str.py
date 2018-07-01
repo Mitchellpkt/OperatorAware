@@ -179,4 +179,4 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
     net_categories = list(set(list(chain.from_iterable(net_categories))))
     net_words = list(set(list(chain.from_iterable(net_words))))
 
-    return net_results_printout, audio_length_s, confidence_metric, net_words, net_categories, net_is_urgent
+    return net_results_printout, audio_length_s, confidence_metric, net_words, net_categories, net_is_urgent, net_transcription

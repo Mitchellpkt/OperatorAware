@@ -98,7 +98,7 @@ def indexpost(confidence_threshold=0.6):
 
         for filename in filename_list:
 
-            results_printout, audio_length_s, confidence_metric, words_list, categories_list, is_urgent = handler_in_str_to_out_str(
+            results_printout, audio_length_s, confidence_metric, words_list, categories_list, is_urgent, net_transcription = handler_in_str_to_out_str(
                 audio_file_name_w_extension=filename,
                 audio_folder_path=os.path.join(target),
                 transcription_slices_directory_path=os.path.join(APP_ROOT,'../CACHE_transcriptions'),
@@ -127,6 +127,9 @@ def indexpost(confidence_threshold=0.6):
 
             if pswd_from_user=="debug":
                 is_not_demo = 1
+                is_debug = 1
+            else:
+                is_debug = 0
 
             call_list.append({
                 'base_filename': str(filename_only),
@@ -138,7 +141,9 @@ def indexpost(confidence_threshold=0.6):
                 'categories_list': categories_list_string,
                 'is_urgent': is_urgent,
                 'is_not_demo': is_not_demo,
-                'not_naive': not_naive
+                'not_naive': not_naive,
+                'is_debug': is_debug,
+                'net_transcription': net_transcription
             })
 
         if not filename_list:
