@@ -66,3 +66,7 @@
 [2018-Jun-30 19:36] 127.0.0.1 GET http /static/uploads/short_basset.mp3? 200 OK
 [2018-Jun-30 19:38] 127.0.0.1 GET http /? 200 OK
 [2018-Jun-30 19:38] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 20:03] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 20:03] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 20:04] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 20:04] 127.0.0.1 POST http /? 200 OK
