@@ -32,11 +32,11 @@
 #
 
 def transcribe_audio_cloud(audio_data, audio_config):
-    from google.cloud import speech
+    from google.cloud import speech_v1p1beta1
     from google.cloud.speech import enums
     from google.cloud.speech import types
 
-    client = speech.SpeechClient()
+    client = speech_v1p1beta1.SpeechClient()
 
     # Works for < 1 min files
     response = client.recognize(audio_config, audio_data)

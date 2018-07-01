@@ -30,8 +30,11 @@
 
 def load_audio_from_filename(str_audio_filename):
     import io
-    from google.cloud.speech import enums
-    from google.cloud.speech import types
+    # from google.cloud.speech import enums
+    # from google.cloud.speech import types
+
+    from google.cloud.speech_v1p1beta1 import enums
+    from google.cloud.speech_v1p1beta1 import types
 
    ### Form filename
     #file_name = os.path.join(
@@ -53,11 +56,11 @@ def load_audio_from_filename(str_audio_filename):
     audio_config = types.RecognitionConfig(
         encoding=enums.RecognitionConfig.AudioEncoding.FLAC,
         #sample_rate_hertz=8000,#16000
-        language_code='en-US') #,
+        language_code='en-US',
         # Enhanced models are only available to projects that
         # opt in for audio data collection.
-        #use_enhanced=True,
+        use_enhanced=True,
         # A model must be specified to use enhanced model.
-        #model='phone_call')
+        model='phone_call')
 
     return audio_data, audio_config
