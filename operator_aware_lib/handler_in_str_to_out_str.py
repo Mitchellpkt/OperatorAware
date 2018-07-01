@@ -120,7 +120,7 @@ def handler_in_str_to_out_str(audio_file_name_w_extension,audio_folder_path='aut
         # Fetch the transcript
         print('pieces of transcriptions stored in: ')
         print(transcription_slices_directory_path)
-        transcription_str, this_confidence_metric = fetch_transcript(audio_data, audio_config, transcript_directory=transcription_slices_directory_path, qVerbose=qVerbose, force_fresh=0, do_not_save=0)
+        transcription_str, this_confidence_metric = fetch_transcript(audio_data, audio_config, transcript_directory=transcription_slices_directory_path, qVerbose=qVerbose, force_fresh=1, do_not_save=0)
         confidence_metric.append(this_confidence_metric)
         net_transcription += ' /// ' + transcription_str
         print('Transcription for segment:')

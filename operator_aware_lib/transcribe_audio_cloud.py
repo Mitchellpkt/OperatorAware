@@ -50,4 +50,11 @@ def transcribe_audio_cloud(audio_data, audio_config):
         transcription_str += ' ' + format(result.alternatives[0].transcript)
         confidence_metric = format(result.alternatives[0].confidence)
 
+    print('****************')
+    for i, result in enumerate(response.results):
+        alternative = result.alternatives[0]
+        print('-' * 20)
+        print('First alternative of result {}'.format(i))
+        print('Transcript: {}'.format(alternative.transcript))
+
     return transcription_str, confidence_metric

@@ -48,11 +48,16 @@ def load_audio_from_filename(str_audio_filename):
     ### Load the audio into memory
     with io.open(str_audio_filename, 'rb') as audio_file:
         content = audio_file.read()
-        audio_data = types.RecognitionAudio(content=content)
 
+    audio_data = types.RecognitionAudio(content=content) # this was in a loop?
     audio_config = types.RecognitionConfig(
         encoding=enums.RecognitionConfig.AudioEncoding.FLAC,
         #sample_rate_hertz=8000,#16000
-        language_code='en-US')
+        language_code='en-US') #,
+        # Enhanced models are only available to projects that
+        # opt in for audio data collection.
+        #use_enhanced=True,
+        # A model must be specified to use enhanced model.
+        #model='phone_call')
 
     return audio_data, audio_config
