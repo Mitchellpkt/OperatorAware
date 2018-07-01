@@ -16,6 +16,14 @@
     <![endif]-->
 
     <style>
+        .call_is_urgent {
+            background-color: palegoldenrod;
+            /* padding-top: 0; */
+            /* padding-bottom 0; */
+            position: relative; /* This protects the inner element from being blurred */
+            padding: 35px;
+        }
+
         audio:hover, audio:focus, audio:active {
             -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
             -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
@@ -78,52 +86,59 @@
         <div class="box">
             {% for call in calls %}
             <div class="shadow1">
-                <div class="content">
 
-                    {% if call.is_urgent %}
+                {% if call.is_urgent %}
                     {% if call.not_naive %}
-                    <img src="https://i.imgur.com/lV7Nr3Y.png"><br><br>
-
+                        <!-- URGENT & NOT-NAIVE -->
+                        <div class="call_is_urgent">
+                        <img src="https://i.imgur.com/SWFsspA.png" width="425" height="60"><br><br>
+                    {% else %}
+                        <!-- URGENT & NAIVE -->
+                        <div class="content">
                     {% endif %}
-                    {% endif %}
+                {% else %}
+                    <!-- NON-URGENT -->
+                    <div class="content">
+                {% endif %}
 
 
-                    {% if call.is_not_demo %}
-                    <font size="4">
-                        <!-- Analysis of --> <b><h2>{{ call.base_filename }}:</h2></b>
+                        {% if call.is_not_demo %}
+                        <font size="4">
+                            <!-- Analysis of --> <b><h2>{{ call.base_filename }}:</h2></b>
 
-                        {% endif %}
+                            {% endif %}
 
-                        <font size="5"> <b>Duration: {{ call.call_duration}} </b></font><br>{% if call.not_naive %} <i>{{
-                        call.confidence_warning }}</i>{% endif %}
+                            <font size="5"> <b>Duration: {{ call.call_duration}} </b></font><br>{% if call.not_naive %}
+                            <i>{{
+                                call.confidence_warning }}</i>{% endif %}
 
-                        <!--Urgency count: {{ call.is_urgent }}-->
+                            <!--Urgency count: {{ call.is_urgent }}-->
 
-                        {% if call.not_naive %}
-
-
-                        {% if call.is_urgent %}
-
-                        <!-- based on the keywords--> <h2>Keywords detected:<br> <font color="blue">
-                        {{call.words_list}} </font></h2>
-
-                        <!-- The call may contain these situations: --> <h2>Classification: <br><font color="red">
-                        {{call.categories_list}} </font></h2>
+                            {% if call.not_naive %}
 
 
-                        {% else %}
-                        <h1><font color="#006400">No emergency detected</font></h1>
-                        <!--  Listen to call: -->
-                        {% endif %}
+                            {% if call.is_urgent %}
 
-                        {% endif %}
+                            <!-- based on the keywords--> <h2>Keywords detected:<br> <font color="blue">
+                            {{call.words_list}} </font></h2>
 
-                        <br>
-                        <audio controls>
-                            <source src="{{ url_for('static', filename='uploads/' + call.base_filename) }}"
-                                    type="audio/mpeg">
-                            Your browser does not support the audio element.
-                        </audio>
+                            <!-- The call may contain these situations: --> <h2>Classification: <br><font color="red">
+                            {{call.categories_list}} </font></h2>
+
+
+                            {% else %}
+                            <h1><font color="#006400">No emergency detected</font></h1>
+                            <!--  Listen to call: -->
+                            {% endif %}
+
+                            {% endif %}
+
+                            <br>
+                            <audio controls>
+                                <source src="{{ url_for('static', filename='uploads/' + call.base_filename) }}"
+                                        type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
 
                     </font>
                 </div>

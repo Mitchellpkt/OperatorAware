@@ -70,3 +70,17 @@
 [2018-Jun-30 20:03] 127.0.0.1 POST http /? 200 OK
 [2018-Jun-30 20:04] 127.0.0.1 GET http /? 200 OK
 [2018-Jun-30 20:04] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 20:06] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 20:07] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 20:07] 127.0.0.1 GET http /static/uploads/Track116 - Complaint about the fine.mp3? 206 PARTIAL CONTENT
+[2018-Jun-30 20:18] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 20:19] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 20:20] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 20:21] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 20:31] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 20:31] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 20:32] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 20:32] 127.0.0.1 GET http /static/css/normalize.css? 200 OK
+[2018-Jun-30 20:32] 127.0.0.1 POST http /? 200 OK
+[2018-Jun-30 20:32] 127.0.0.1 GET http /? 200 OK
+[2018-Jun-30 20:32] 127.0.0.1 POST http /? 200 OK
