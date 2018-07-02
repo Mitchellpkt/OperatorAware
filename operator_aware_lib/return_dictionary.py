@@ -39,7 +39,7 @@ def return_dictionary(str_dict_version='newest'):
     # Original prescribed dictionary
     if use_str_dict_version == 'v0':
         danger_words = {
-            'weaponWords': ['knife', 'gun', 'guns', 'weapon', 'weapons', 'shoot', 'shot', 'armed', 'shotgun', 'handgun',
+            'weaponWords': ['knife', ' gun', 'guns', 'weapon', 'weapons', 'shoot', 'shot', 'armed', 'shotgun', 'handgun',
                             'rifle', 'bullet'],
             'medicalWords': ['heart', 'stroke', 'breathing', 'breathe', 'unconscious', 'collapsed', 'diabetic', 'ambulance',
                              'doctor', 'hospital', 'blood', 'CPR'],
