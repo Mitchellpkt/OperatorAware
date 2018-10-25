@@ -43,6 +43,6 @@ The call center supervisor interacts with OperatorAware through a quality assura
 ![images/dash.png](images/dash.png)
 
 ## Training Data
-The `Real911_Calls` directory contains the audio of 911 calls. Data avre available through [posted publicly](http://www.lapdonline.org/communications_division/content_basic_view/27361) by the LAPD. The website [http://911callers.com/](http://911callers.com/) contains 89 calls to 911, including both emergency and non-emergency situations. It appears that all of the audio files are stored in the root directory, thus accessible by `wget 911callers.com/<callname>.swf`
+The `Real911_Calls` directory contains the audio of 911 calls. Data are available through [posted publicly](http://www.lapdonline.org/communications_division/content_basic_view/27361) by the LAPD. The website [http://911callers.com/](http://911callers.com/) contains 89 calls to 911, including both emergency and non-emergency situations. It appears that all of the audio files are stored in the root directory, thus accessible by `wget 911callers.com/<callname>.swf`
 
 
